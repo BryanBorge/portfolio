@@ -1,0 +1,10 @@
+.main-content {
+    position: relative;
+    margin-top: 50px;
+}
+
+@media (max-width: 500px) {
+    .main-content{
+        margin: 0;
+    }
+}

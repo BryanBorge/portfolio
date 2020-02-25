@@ -1,0 +1,61 @@
+.card {
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  font-family: "Open Sans", sans-serif;
+  margin: 10px 10px;
+  justify-content: center;
+  position: relative;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.courses {
+  padding: 5px;
+  margin: 10px 10px;
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
+.degree {
+  opacity: 60%;
+  text-align: center;
+  margin: 10px;
+  padding-bottom: 10px;
+}
+
+span {
+  margin: 10px 10px;
+}
+.details {
+  text-align: center;
+  margin: 10px 10px;
+}
+
+.hr {
+  border-top: 1.25px solid slategrey;
+  margin-left: 15px;
+  margin-right: 15px;
+  width: 640x;
+  opacity: 25%;
+}
+
+.title {
+  margin: 20px 20px;
+  text-align: center;
+}
+
+.time {
+  display: inline-block;
+  background-color: aliceblue;
+  font-size: 13px;
+  width: 100%;
+  opacity: 60%;
+}
+
+.time p {
+  position:absolute;                  
+  bottom:0;                          
+  margin: 10px; 
+}
+

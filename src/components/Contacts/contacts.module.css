@@ -1,0 +1,20 @@
+.Contacts {
+    display: inline-flex;
+    margin-left: 10px;
+    height: 35px;
+    width: 180px;
+    justify-content: space-between;
+}
+
+div i {
+    justify-content: space-between;
+}
+
+div a {
+    color: slategray;
+}
+
+.Contacts a:hover {
+	transition: transform .2s;
+	transform: translateY(-5px);
+}
