@@ -11,8 +11,10 @@
   padding: 0 20px;
   box-sizing: border-box;
   z-index: 90;
+  -webkit-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.25);
 }
-
 
 .Logo h3 {
   font-size: 18px;
