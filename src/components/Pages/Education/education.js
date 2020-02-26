@@ -30,7 +30,6 @@ let postCourses = [
 
 const education = () => {
   return (
-    <div>
       <div className={classes.school}>
         <School
           link="https://liu.edu/Post"
@@ -51,7 +50,6 @@ const education = () => {
           courses={farmingdaleCourses}
         />
       </div>
-    </div>
   );
 };
 

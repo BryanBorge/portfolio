@@ -1,7 +1,5 @@
-import React, { Component } from "react";
+import React from "react";
 import Logo from "../Logo/logo";
-import Button from "../Button/button";
-import Contacts from "../Contacts/contacts";
 import Navigation from '../Navigation/Navigation'
 import Aux from "../../hoc/Aux";
 import classes from "./sidebar.module.css";
@@ -15,7 +13,7 @@ const sidebar = props => {
   return (
     <Aux>
       <Backdrop show={props.open} clicked={props.closed}/>
-      <div className={classes.Sidebar}>
+      <div className={attachedClasses.join(' ')}>
         <div className={classes.Logo}>
           <Logo />
         </div>

@@ -5,7 +5,7 @@ import Toolbar from "../Toolbar/Toolbar";
 import classes from "./Layout.module.css";
 class Layout extends Component {
   state = {
-    showSideBar: true
+    showSideBar: false
   };
 
   sideBarClosedHandler = () => {
@@ -13,7 +13,7 @@ class Layout extends Component {
   };
 
   sideBarToggleHandler = () => {
-    this.setState( (prevState) => {
+    this.setState(prevState => {
       return { showSideBar: !prevState.showSideBar };
     });
   };
@@ -21,7 +21,7 @@ class Layout extends Component {
   render() {
     return (
       <Aux>
-        <Toolbar barToggleClicked={this.sideBarToggleHandler}/>
+        <Toolbar barToggleClicked={this.sideBarToggleHandler} />
         <SideBar
           open={this.state.showSideBar}
           closed={this.sideBarClosedHandler}

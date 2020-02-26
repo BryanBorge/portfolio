@@ -5,7 +5,7 @@ const header = props => {
   let hamburger = props.toggle ? <i class="fas fa-bars"></i> : null;
   
   return (
-    <div className={classes.header}>
+    <div className={classes.header} to={props.to} id={props.id}>
       {hamburger} {props.title}
     </div>
   );

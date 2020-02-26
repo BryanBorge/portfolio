@@ -1,7 +1,13 @@
 import React from "react";
-
-const barToggle = (props) => {
-  return <div onClick={props.clicked}>MENU</div>;
+import classes from "./BarToggle.module.css";
+const barToggle = props => {
+  return (
+    <div className={classes.BarToggle} onClick={props.clicked}>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  );
 };
 
 export default barToggle;

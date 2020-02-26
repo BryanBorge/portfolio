@@ -1,10 +1,10 @@
 .Logo {
   text-align: left;
-  width: 190px;
   font-family: 'Open Sans', sans-serif;
   height: 100%;
   padding: 8px;
   box-sizing: border-box;
+  border-radius: 50px;
 }
 
 .Logo h3 {
@@ -17,4 +17,5 @@
   font-size: 18px;
   color: slategrey;
   margin: 2px;
+  height: 100%;
 }

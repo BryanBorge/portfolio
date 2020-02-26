@@ -13,12 +13,26 @@
   z-index: 90;
 }
 
-.Logo {
-  height: 80%;
+
+.Logo h3 {
+  font-size: 18px;
+  color: lightskyblue;
+  margin: 2px;
 }
 
-@media (max-width: 499px) {
+.Logo p {
+  font-size: 14px;
+  color: slategrey;
+  margin: 2px;
+  height: 100%;
+}
+
+@media (max-width: 625px) {
   .DesktopOnly {
     display: none;
+  }
+
+  .Logo {
+    width: 100%;
   }
 }

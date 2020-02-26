@@ -1,7 +1,15 @@
 .school {
     display:  grid;
-    grid-template-columns: repeat(auto-fit,minmax(200px,400px));
+    grid-template-columns: repeat(2,minmax(200px,400px));
     grid-template-rows: auto-fit;
     column-gap: 15px;
 } 
 
+@media (max-width: 800px) {
+    .school {
+        display:  grid;
+        grid-template-columns: repeat(auto-fit,minmax(200px,400px));
+        grid-template-rows: auto-fit;
+        column-gap: 15px;
+    } 
+}

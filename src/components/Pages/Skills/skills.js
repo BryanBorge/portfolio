@@ -1,15 +1,15 @@
 import React from "react";
 import Skill from "./Skill/skill";
 import Header from "../../Header/header";
-import csharpLogo from "../../Icons/csharp.png";
-import cppLogo from "../../Icons/cpp.png";
-import gitLogo from "../../Icons/git.png";
-import javaLogo from "../../Icons/java.png";
-import reactLogo from "../../Icons/react.png";
-import sqlLogo from "../../Icons/sql.png";
-import htmlLogo from "../../Icons/html.png";
-import pyLogo from "../../Icons/py.png";
-import linuxLogo from "../../Icons/linux.png";
+import csharpLogo from "../../../assets/Icons/csharp.png";
+import cppLogo from "../../../assets/Icons/cpp.png"
+import gitLogo from "../../../assets/Icons/git.png";
+import javaLogo from "../../../assets/Icons/java.png";
+import reactLogo from "../../../assets/Icons/react.png";
+import sqlLogo from "../../../assets/Icons/sql.png";
+import htmlLogo from "../../../assets/Icons/html.png";
+import pyLogo from "../../../assets/Icons/py.png";
+import linuxLogo from "../../../assets/Icons/linux.png";
 import classes from "./skills.module.css";
 
 const skillInfo = {
@@ -34,7 +34,6 @@ const skillInfo = {
 const skills = () => {
   return (
     <div>
-      <Header title="Skills" />
       <div className={classes.Skills}>
         <Skill skill={csharpLogo} info={skillInfo.csharp} />
         <Skill skill={cppLogo} info={skillInfo.cpp} />
