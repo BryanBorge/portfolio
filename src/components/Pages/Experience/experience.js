@@ -1,5 +1,4 @@
 import React from "react";
-import Header from "../../Header/header";
 import Job from "./Job/job";
 import PrecipartLogo from "../../../assets/Icons/precipart.png";
 import RmsLogo from "../../../assets/Icons/rms.jpeg";

@@ -1,6 +1,5 @@
 import React from "react";
 import NavigationItem from "./NavigationItem/NavigationItem"
-import {animateScroll as scroll} from 'react-scroll'
 import classes from "./Navigation.module.css";
 
 const navigation = () => {

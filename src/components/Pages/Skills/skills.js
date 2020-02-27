@@ -1,6 +1,5 @@
 import React from "react";
 import Skill from "./Skill/skill";
-import Header from "../../Header/header";
 import csharpLogo from "../../../assets/Icons/csharp.png";
 import cppLogo from "../../../assets/Icons/cpp.png"
 import gitLogo from "../../../assets/Icons/git.png";

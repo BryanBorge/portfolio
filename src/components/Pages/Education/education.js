@@ -2,7 +2,6 @@ import React from "react";
 import School from "./School/school";
 import FarmingdaleLogo from "../../../assets/Icons/farmingdale.png"
 import postLogo from "../../../assets/Icons/liu.png";
-import Header from "../../Header/header"
 import classes from "./education.module.css";
 
 let farmingdaleItems = ["GPA 3.32/4", "Dean's List Fall 2017, Spring 2018"];
@@ -41,7 +40,7 @@ const education = () => {
           courses={postCourses}
         />
         <School
-          link="https://liu.edu/Post"
+          link="https://www.farmingdale.edu/"
           logo={FarmingdaleLogo}
           school="SUNY Farmingdale"
           desc="B.S. in Computer Programming and Information Systems"

@@ -1,4 +1,4 @@
-.main-content {
+.maincontent {
   width: 100%;
   display: flex;
   flex-flow: column;
@@ -9,7 +9,7 @@
 }
 
 @media (max-width: 500px) {
-  .main-content {
+  .maincontent {
     margin: 0;
   }
 }

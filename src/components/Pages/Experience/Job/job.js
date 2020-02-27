@@ -1,5 +1,4 @@
 import React from "react";
-import Header from "../../../Header/header";
 import classes from "./job.module.css";
 const job = props => {
   let listItems = props.items.map(item => <li key={item}>{item}</li>);

@@ -20,8 +20,7 @@
 .degree {
   opacity: 60%;
   text-align: center;
-  margin: 10px;
-  padding-bottom: 10px;
+  margin: 5px;
 }
 
 span {
@@ -59,3 +58,8 @@ span {
   margin: 10px; 
 }
 
+@media (max-width: 325px){
+  .time {
+    font-size: 11px;
+  }
+}

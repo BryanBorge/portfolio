@@ -4,13 +4,13 @@ import Education from "./components/Pages/Education/education";
 import Header from "./components/Header/header"
 import About from "./components/Pages/About/about"
 import Skills from './components/Pages/Skills/skills'
-import classes from "./content.css";
+import classes from "./content.module.css";
 
 
 
 const content = () => {
   return (
-    <div className="main-content">
+    <div className={classes.maincontent}>
       <Header title='About' id="About"/>
       <About />
       <Header title='Education' id="Education" />
