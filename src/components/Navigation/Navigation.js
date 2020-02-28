@@ -5,22 +5,22 @@ import classes from "./Navigation.module.css";
 const navigation = () => {
   return (
     <ul className={classes.Navigation}>
-      <NavigationItem link="/" to="About">
+      <NavigationItem to="About">
         About
       </NavigationItem>
-      <NavigationItem link="/" to="Education">
+      <NavigationItem to="Education">
         Education
       </NavigationItem>
-      <NavigationItem link="/" to="Experience">
+      <NavigationItem to="Experience">
         Experience
       </NavigationItem>
-      <NavigationItem link="/" to="Skills">
+      <NavigationItem to="Skills">
         Skills
       </NavigationItem>
-      <NavigationItem link="/" to="Projects">
+      <NavigationItem to="Projects">
         Projects
       </NavigationItem>
-      <NavigationItem to="">
+      <NavigationItem to="Resume">
           Resume
       </NavigationItem>
     </ul>

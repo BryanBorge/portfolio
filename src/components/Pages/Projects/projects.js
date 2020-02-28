@@ -1,10 +1,9 @@
 import React from "react";
-import Project from "./Project/project";
+import classes from './projects.module.css'
 const projects = () => {
   return (
-    <div>
-      <Project title="Download manager" icon=""/>
-      <Project />
+    <div className={classes.Projects}>
+      Coming soon! For now check out my <a href="https://github.com/BryanBorge">GitHub</a>
     </div>
   );
 };

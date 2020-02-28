@@ -1,7 +1,7 @@
 import React from "react";
 import Logo from "../Logo/logo";
 import Navigation from '../Navigation/Navigation'
-import Aux from "../../hoc/Aux";
+import Aux from "../../hoc/ReactAux";
 import classes from "./sidebar.module.css";
 import Backdrop from "../Backdrop/Backdrop";
 

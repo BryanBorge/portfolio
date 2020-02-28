@@ -4,6 +4,8 @@ import Education from "./components/Pages/Education/education";
 import Header from "./components/Header/header"
 import About from "./components/Pages/About/about"
 import Skills from './components/Pages/Skills/skills'
+import Resume from './components/Pages/Resume/resume'
+import Projects from './components/Pages/Projects/projects'
 import classes from "./content.module.css";
 
 
@@ -19,6 +21,11 @@ const content = () => {
       <Experience />
       <Header title='Skills' id="Skills"/>
       <Skills />
+      <Header title='Projects' id="Projects"/>
+      <Projects />
+      <Header title='Resume' id="Resume"/>
+      <Resume />
+
     </div>
   );
 };

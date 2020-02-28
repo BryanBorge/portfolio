@@ -1,0 +1,20 @@
+.Resume {
+    display: inline-flex;
+    margin: 20px;
+    height: 100px;
+    width: 180px;
+    justify-content: space-between;
+}
+
+div i {
+    justify-content: space-between;
+}
+
+div a {
+    color: slategray;
+}
+
+.Resume a:hover {
+	transition: transform .2s;
+	transform: translateY(-5px);
+}
