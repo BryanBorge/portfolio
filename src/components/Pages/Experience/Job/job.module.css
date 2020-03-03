@@ -80,9 +80,7 @@ a:link {
 }
 
 @media (max-width: 450px) {
-  .Logo {
-   display: none;
-  }
+  
 
   .title {
     display: grid;
@@ -92,6 +90,6 @@ a:link {
   }
 
   .infocard {
-   height: 650px;
+   height: 800px;
   }
 }
