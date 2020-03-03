@@ -2,10 +2,11 @@ import React from "react";
 import classes from "./school.module.css";
 const school = props => {
   let listItems = props.items.map(item => <li key={item}>{item}</li>);
- // let courses = props.courses.map(item => <li key={item}>{item}</li>);
+  // let courses = props.courses.map(item => <li key={item}>{item}</li>);
   return (
     <div className={classes.card}>
       <div className={classes.title}>
+        <img className={classes.Logo} src={props.logo}></img>
         <a href={props.link}>
           <h4>{props.school}</h4>
         </a>

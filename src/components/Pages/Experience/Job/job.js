@@ -1,11 +1,12 @@
 import React from "react";
 import classes from "./job.module.css";
 const job = props => {
-  let listItems = props.items.map(item => <li key={item}>{item}</li>);
+  let listItems = props.items.map(item => <li className={classes.items} key={item}>{item}</li>);
   return (
     <div>
       <div className={classes.infocard}>
         <div className={classes.title}>
+          <img className={classes.Logo} src={props.logo} />
           <a href={props.link}>
             <h1>{props.company}</h1>
           </a>
@@ -15,8 +16,8 @@ const job = props => {
         </div>
         <div className={classes.titlehr} />
         <div className={classes.desc}>{props.desc}</div>
-        <div className={classes.items}>
-          <ol>{listItems}</ol>
+        <div>
+          <ul >{listItems}</ul>
         </div>
         <div className={classes.time}>
           <p>{props.time}</p>

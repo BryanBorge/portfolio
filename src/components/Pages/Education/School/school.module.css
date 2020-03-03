@@ -39,9 +39,23 @@ span {
   width: 640x;
 }
 
+.Logo {
+  width: 80px;
+  height: auto;
+  margin-top: 15px;
+}
+
 .title {
-  margin: 20px 20px;
-  text-align: center;
+  margin: 35px 35px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(10px, 300px));
+  grid-template-rows: auto-fit;
+  column-gap: 35px;
+  justify-items: center;
+}
+
+.title h4 {
+  font-size: 25px;
 }
 
 .time {
@@ -53,13 +67,24 @@ span {
 }
 
 .time p {
-  position:absolute;                  
-  bottom:0;                          
-  margin: 10px; 
+  position: absolute;
+  bottom: 0;
+  margin: 10px;
 }
 
-@media (max-width: 325px){
-  .time {
-    font-size: 11px;
+
+
+@media (max-width: 450px) {
+  .title {
+    margin: 35px 35px;
+    display: grid;
+    grid-template-columns: repeat(1, minmax(25px, 500px));
+    grid-template-rows: auto-fit;
+    column-gap: 35px;
+    justify-items: center;
+  }
+
+  .card {
+    height: 450px
   }
 }
