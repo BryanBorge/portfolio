@@ -7,3 +7,8 @@
     font-size: 21px;
     margin: 50px;
 }
+
+.focus {
+    font-weight: bolder;
+    color: black
+}
