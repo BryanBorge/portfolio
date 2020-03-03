@@ -4,16 +4,16 @@ const resume = () => {
     return (
         <div className={classes.Resume}>
          <a href="https://docs.google.com/document/d/1uw6tut4270osFizxSfcC9KS5jC5EYdGptpYSqZ1Hm5g/edit">
-            <i class="fas fa-file-alt fa-4x"></i>
-            Resume
+         <i class="fab fa-google-drive fa-4x"></i>
+         <p>Resume</p>
           </a>
           <a href="https://www.linkedin.com/in/bryan-borgesano/">
             <i class="fab fa-linkedin fa-4x"></i>
-            Linked In
+            <p>LinkedIn</p>
           </a>
           <a href="https://github.com/BryanBorge">
             <i class="fab fa-github-square fa-4x"></i>
-            GitHub
+            <p>GitHub</p>
           </a>
         </div>
       );

@@ -1,20 +1,25 @@
 .Resume {
-    display: inline-flex;
-    margin: 20px;
-    height: 100px;
-    width: 180px;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(3,minmax(50px,125px));
+    justify-items: center;
+    margin-top: 25px;
 }
 
-div i {
-    justify-content: space-between;
-}
-
-div a {
-    color: slategray;
+div.p {
+    text-align: center;
 }
 
 .Resume a:hover {
 	transition: transform .2s;
 	transform: translateY(-5px);
+}
+
+@media (max-width: 300px) {
+    .Resume {
+        display: grid;
+        grid-template-columns: repeat(1,minmax(100px,200px));
+        column-gap: 10px;
+        justify-items: center;
+        margin-top: 25px;
+    }
 }

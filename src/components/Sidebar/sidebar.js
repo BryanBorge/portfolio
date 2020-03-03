@@ -1,8 +1,9 @@
 import React from "react";
 import Logo from "../Logo/logo";
-import Navigation from '../Navigation/Navigation'
+import Navigation from "../Navigation/Navigation";
 import Aux from "../../hoc/ReactAux";
 import classes from "./sidebar.module.css";
+import Contacts from '../Contacts/contacts'
 import Backdrop from "../Backdrop/Backdrop";
 
 const sidebar = props => {
@@ -12,11 +13,12 @@ const sidebar = props => {
   }
   return (
     <Aux>
-      <Backdrop show={props.open} clicked={props.closed}/>
-      <div className={attachedClasses.join(' ')}>
+      <Backdrop show={props.open} clicked={props.closed} />
+      <div className={attachedClasses.join(" ")} onClick={props.closed}>
         <div className={classes.Logo}>
           <Logo />
         </div>
+        <Contacts />
         <Navigation />
       </div>
     </Aux>

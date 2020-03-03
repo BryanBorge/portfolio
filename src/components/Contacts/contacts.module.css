@@ -1,9 +1,10 @@
 .Contacts {
-    display: inline-flex;
+    display: flex;
     margin-left: 10px;
     height: 35px;
     width: 180px;
     justify-content: space-between;
+    margin-bottom: 20px;
 }
 
 div i {
