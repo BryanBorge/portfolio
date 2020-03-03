@@ -13,3 +13,7 @@
     font-weight: bolder;
     color: black
 }
+
+.focus a {
+    text-decoration: underline;
+}

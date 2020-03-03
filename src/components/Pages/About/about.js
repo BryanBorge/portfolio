@@ -7,7 +7,7 @@ const about = () => {
       <p>
         I'm drawn to challenges that require creativity and constant
         progression. I believe my passion for progression comes from
-        skateboarding - perpetual learning and the desire to be better than you
+        skateboarding - endless learning and the desire to be better than you
         were yesterday.
       </p>
       <p>
