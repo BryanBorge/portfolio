@@ -31,15 +31,6 @@ const education = () => {
   return (
       <div className={classes.school}>
         <School
-          link="https://liu.edu/Post"
-          logo={postLogo}
-          school="LIU Post"
-          desc="55 Credits towards B.S. in Computer Science"
-          time="Fall 2015 - Spring 2017 | Brookville, Long Island"
-          items={postItems}
-          courses={postCourses}
-        />
-        <School
           link="https://www.farmingdale.edu/"
           logo={FarmingdaleLogo}
           school="SUNY Farmingdale"
@@ -47,6 +38,15 @@ const education = () => {
           time="Fall 2017 - Spring 2019 | Farmingdale, Long Island"
           items={farmingdaleItems}
           courses={farmingdaleCourses}
+        />
+        <School
+          link="https://liu.edu/Post"
+          logo={postLogo}
+          school="LIU Post"
+          desc="55 Credits towards B.S. in Computer Science"
+          time="Fall 2015 - Spring 2017 | Brookville, Long Island"
+          items={postItems}
+          courses={postCourses}
         />
       </div>
   );

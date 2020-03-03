@@ -1,67 +1,64 @@
 .infocard {
-    font-family: "Open Sans", sans-serif;
-    position: relative;
-    display: block;
-    width: auto;
-    height: 500px;
-    margin: 5px;
-    padding: 0;
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-  
-  }
+  font-family: "Open Sans", sans-serif;
+  position: relative;
+  display: block;
+  width: auto;
+  height: 500px;
+  margin: 5px;
+  padding: 0;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
 
-  .title {
-    display: flex;
-    justify-content: space-around;
-    margin: 2px;
-  }
-  
-  .title h1 {
-      font-size: 25px;
-  }
+.title {
+  display: flex;
+  justify-content: space-around;
+  margin: 2px;
+}
 
+.title h1 {
+  font-size: 25px;
+}
 
-  .title p {
-   padding-top: 25px;
-  }
-  
-  a:link {
-      text-decoration: none;
-  }
-  
-  .titlehr {
-      border-top: 1.25px solid slategrey;
-      margin-left: 15px;
-      margin-right: 15px;
-      width: 640x;
-      opacity: 25%;
-  }
-  
-  .desc {
-      opacity: 100%;
-      text-align: center;
-      margin: 10px;
-  }
-  
-  .items {
-      margin: 20px;
-  }
-  
-  li {
-      margin-bottom: 2px;
-  }
-  
-  .time {
-    display: inline-block;
-    background-color: aliceblue;
-    font-size: 13px;
-    width: 100%;
-    opacity: 100%;
-  }
-  
-  
-  .time p {
-    position:absolute;                  
-    bottom:0;                          
-    margin: 10px; 
-  }
+.title p {
+  padding-top: 25px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.titlehr {
+  border-top: 1.25px solid slategrey;
+  margin-left: 15px;
+  margin-right: 15px;
+  width: 640x;
+  opacity: 25%;
+}
+
+.desc {
+  color: #9a9c9b;
+  text-align: center;
+  margin: 10px;
+}
+
+.items {
+  margin: 20px;
+}
+
+li {
+  margin-bottom: 2px;
+}
+
+.time {
+  display: inline-block;
+  background-color: aliceblue;
+  font-size: 13px;
+  width: 100%;
+  color: #9a9c9b;
+}
+
+.time p {
+  position: absolute;
+  bottom: 0;
+  margin: 10px;
+}
