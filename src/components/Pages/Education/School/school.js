@@ -6,7 +6,7 @@ const school = props => {
   return (
     <div className={classes.card}>
       <div className={classes.title}>
-        <img className={classes.Logo} src={props.logo}></img>
+        <img className={classes.Logo} src={props.logo} alt="logo"></img>
         <a href={props.link}>
           <h4>{props.school}</h4>
         </a>

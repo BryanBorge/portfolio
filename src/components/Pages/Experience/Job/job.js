@@ -6,7 +6,7 @@ const job = props => {
     <div>
       <div className={classes.infocard}>
         <div className={classes.title}>
-          <img className={classes.Logo} src={props.logo} />
+          <img className={classes.Logo} src={props.logo} alt="logo"/>
           <a href={props.link}>
             <h1>{props.company}</h1>
           </a>

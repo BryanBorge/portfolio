@@ -2,4 +2,38 @@
     font-family: 'Open Sans', sans-serif;
     font-size: 21px;
     margin: 35px 35px;
+    display:  grid;
+    grid-template-columns: repeat(4,minmax(200px,400px));
+    grid-template-rows: auto-fit;
+    justify-items: center;
+} 
+
+@media (max-width: 1300px) {
+    .Projects {
+     display:  grid;
+     grid-template-columns: repeat(3,minmax(200px,400px));
+     grid-template-rows: auto-fit;
+     column-gap: 15px;
+    }
+ }
+
+ @media (max-width: 1000px) {
+    .Projects {
+     display:  grid;
+     grid-template-columns: repeat(2,minmax(200px,400px));
+     grid-template-rows: auto-fit;
+     column-gap: 15px;
+    }
+ }
+
+
+
+
+@media (max-width: 800px) {
+   .Projects {
+    display:  grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,400px));
+    grid-template-rows: auto-fit;
+    column-gap: 15px;
+   }
 }
