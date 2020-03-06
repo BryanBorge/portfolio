@@ -5,17 +5,17 @@ const about = () => {
   return (
     <div className={classes.about}>
       <p>
-        I'm drawn to challenges that require creativity and constant
-        progression. I believe my passion for progression comes from
-        skateboarding - endless learning and the desire to be better than you
-        were yesterday.
+        Aspiring full stack developer with a life long facination with
+        technology. Fuled by a passion for creation and progression, I am eager
+        to learn the latest technologies through continued coursework and
+        professional development.
+        I have experience building backend services while studying at SUNY
+        Farmingdale and recently completed an online course where I learned
+        ReactJS.
       </p>
       <p>
-        After I began to study computer science in college, I realized that
-        programming had a similar mentality and pleasure. I want to take my
-        passion for learning and progression and apply my skills as a software
-        developer. I'm not sure where I would like to specialize which is why im
-        looking to get my foot in the door and start my career.
+        Currently looking for an entry level developer position and always
+        interested in a challenge.
       </p>
       <p className={classes.focus}>
         Current Focus:{" "}
