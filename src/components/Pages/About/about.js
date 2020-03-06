@@ -5,7 +5,7 @@ const about = () => {
   return (
     <div className={classes.about}>
       <p>
-        Aspiring full stack developer with a life long facination with
+        Aspiring full stack developer with a life long facination for
         technology. Fuled by a passion for creation and progression, I am eager
         to learn the latest technologies through continued coursework and
         professional development.
@@ -14,7 +14,7 @@ const about = () => {
         ReactJS.
       </p>
       <p>
-        Currently looking for an entry level developer position and always
+        Actively looking for a position as an Entry Level Developer and always
         interested in a challenge.
       </p>
       <p className={classes.focus}>
