@@ -1,7 +1,7 @@
 import React from "react";
 import Skill from "./Skill/skill";
 import csharpLogo from "../../../assets/Icons/csharp.png";
-import cppLogo from "../../../assets/Icons/cpp.png"
+import cppLogo from "../../../assets/Icons/cpp.png";
 import gitLogo from "../../../assets/Icons/git.png";
 import javaLogo from "../../../assets/Icons/java.png";
 import reactLogo from "../../../assets/Icons/react.png";
@@ -12,8 +12,10 @@ import linuxLogo from "../../../assets/Icons/linux.png";
 import classes from "./skills.module.css";
 
 const skillInfo = {
-  csharp: "Used C# to write DLLs for use in WPF applications and wrote programs that utilize web services and multithreading. Database experience using Azure for a personal project.",
-  cpp: "Used C++ to build data structures dealing with low level memory management. Also used for my algorithms class where I learned time/space complexity, sorting/searching and tree/graph algorithms.",
+  csharp:
+    "Used C# to write DLLs for use in WPF applications and wrote programs that utilize web services and multithreading. Database experience using Azure for a personal project.",
+  cpp:
+    "Used C++ to build data structures dealing with low level memory management. Also used for my algorithms class where I learned time/space complexity, sorting/searching and tree/graph algorithms.",
   git:
     "Familar with basic Git commands such as add, commit, status, checkout, push, pull. Use Git/Github for my personal projects.",
   java:
@@ -21,7 +23,7 @@ const skillInfo = {
   python:
     "My current go to language. Most of my experience is from scripting on a RaspberryPi. I've used Python for projects involving web scraping, APIs, reading sensors and managing the file system on my computer",
   react:
-    "Currently enrolled in a 40 hour React JS course on Udemy. This site is the first thing I've build with React using hooks.",
+    "Recently completed a 45 hour, 500+ lecture course on ReactJS where I learned hooks, redux, React Routing and more. Focusing on fast, user friendly, mobile-first responsive designs. This site is the first thing I've made with React.",
   sql:
     "Took two courses on SQL at SUNY Farmingdale using Oracle and SQl Server focusing on DML statements. Have sinced used Azure for school projects using Java and personal projects using C#.",
   linux:
