@@ -15,7 +15,7 @@ const projects = () => {
         img={reactLogo}
         title={"Portfolio Website"}
         desc={
-          "You are already here! This site is the first thing I've built using ReactJS. This app was created using create-react-app and is hosted on GitHub Pages."
+          "You are already here! This site is the first thing I've built using ReactJS and it's being hosted on GitHub pages."
         }
         link={"https://github.com/BryanBorge/portfolio"}
       />
