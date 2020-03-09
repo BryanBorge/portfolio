@@ -6,7 +6,7 @@ const about = () => {
     <div className={classes.about}>
       <p>
         Aspiring full stack developer with a life long facination for
-        technology. Fuled by a passion for creation and progression, I am eager
+        technology. Fueled by a passion for creation and progression, I am eager
         to learn the latest technologies through continued coursework and
         professional development.
         I have experience building backend services while studying at SUNY
