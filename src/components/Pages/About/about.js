@@ -5,7 +5,7 @@ const about = () => {
   return (
     <div className={classes.about}>
       <p>
-        Aspiring full stack developer with a life long facination for
+        Aspiring full stack developer with a life long fascination for
         technology. Fueled by a passion for creation and progression, I am eager
         to learn the latest technologies through continued coursework and
         professional development.
