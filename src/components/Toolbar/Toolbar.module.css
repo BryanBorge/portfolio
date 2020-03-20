@@ -16,19 +16,6 @@
   box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.25);
 }
 
-.Logo h3 {
-  font-size: 18px;
-  color: lightskyblue;
-  margin: 2px;
-}
-
-.Logo p {
-  font-size: 14px;
-  color: slategrey;
-  margin: 2px;
-  height: 100%;
-}
-
 @media (max-width: 625px) {
   .DesktopOnly {
     display: none;
