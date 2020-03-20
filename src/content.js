@@ -15,9 +15,9 @@ const content = () => {
     <div className={classes.maincontent}>
       <Header title='About' id="About"/>
       <About />
-      <Header title='Education' id="Education" />
+      <Header title='Education' id="Education"/>
       <Education />
-      <Header title='Experience' id="Experience" />
+      <Header title='Experience' id="Experience"/>
       <Experience />
       <Header title='Skills' id="Skills"/>
       <Skills />
@@ -25,6 +25,8 @@ const content = () => {
       <Projects />
       <Header title='Resume' id="Resume"/>
       <Resume />
+      
+      
 
     </div>
   );
