@@ -25,9 +25,6 @@ const content = () => {
       <Projects />
       <Header title='Resume' id="Resume"/>
       <Resume />
-      
-      
-
     </div>
   );
 };
