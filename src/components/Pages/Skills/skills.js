@@ -17,19 +17,19 @@ const skillInfo = {
   cpp:
     "Used C++ to build data structures dealing with low level memory management. Also used for my algorithms class where I learned time/space complexity, sorting/searching and tree/graph algorithms.",
   git:
-    "Familar with basic Git commands such as add, commit, status, checkout, push, pull. Use Git/Github for my personal projects.",
+    "Very familar with using Git version control. Use Git/Github for all Hackathons and personal projects.",
   java:
     "Took a course at Farmingdale covering things such Object Oriented design and principles, GUIs, interfaces and error handing. Used Java to build a desktop app for our senior project using JDBC and Azure.",
   python:
     "My current go to language. Most of my experience is from scripting on a RaspberryPi. I've used Python for projects involving web scraping, APIs, reading sensors and managing the file system on my computer",
   react:
-    "Recently completed a 45 hour, 500+ lecture course on ReactJS where I learned hooks, redux, React Routing and more. Focusing on fast, user friendly, mobile-first responsive designs. This site is the first thing I've made with React.",
+    "Completed a 45 hour course on React where I learned hooks, ContextAPI, Routing and more. Focusing on fast, user friendly, mobile-first responsive designs. Have since been focusing on full stack React development using the MERN stack.",
   sql:
     "Took two courses on SQL at SUNY Farmingdale using Oracle and SQl Server focusing on DML statements. Have sinced used Azure for school projects using Java and personal projects using C#.",
   linux:
-    "First introduced during my Unix course at SUNY Farmingdale. Have experience scripting and building projects with a RaspberryPi. Recently installed Ubuntu on my main computer and use it for most of my development.",
+    "First introduced during my Unix course at SUNY Farmingdale. Have experience scripting and building projects with a RaspberryPi. Have Ubuntu dual-booted on my main computer and use it for most of my development.",
   html:
-    "HTML, CSS and web design were not my strongest skills. After being introduced to React JS, my skills and enjoyment of doing web development has greatly improved."
+    "Familiar with HTML markup. Working on CSS skills as I build sites with React however I often use Bootstrap and Material UI. ",
 };
 
 const skills = () => {
