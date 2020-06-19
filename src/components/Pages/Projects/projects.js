@@ -1,12 +1,10 @@
 import React from "react";
 import Project from "./Project/project";
-import bumble from "../../../assets/Icons/bumble.jpg";
-import dfmanager from "../../../assets/Icons/dfmanager.png";
-import tictac from "../../../assets/Icons/tictac.png";
 import rpi from "../../../assets/Icons/rpi.png";
-import journal from "../../../assets/Icons/journal.jpg";
-import dale from "../../../assets/Icons/dale.jpeg";
+import FarFriendsLogo from "../../../assets/Icons/farfriends.jpg";
+import MaskiLogo from "../../../assets/Icons/mask-eye.png";
 import reactLogo from "../../../assets/Icons/react.png";
+import NASALogo from "../../../assets/Icons/nasa.png";
 import classes from "./projects.module.css";
 const projects = () => {
   return (
@@ -18,53 +16,47 @@ const projects = () => {
           "You are already here! This site is the first thing I've built using ReactJS and it's being hosted on GitHub pages."
         }
         link={"https://github.com/BryanBorge/portfolio"}
+        icon="fab fa-github-square fa-2x"
       />
       <Project
-        img={bumble}
-        title={"Bumble Web Bot"}
+        img={MaskiLogo}
+        title={"Mask-i"}
         desc={
-          "Using the webbot Python3 library, I built a webbot for the dating app Bumble. Still a work in progress and has open source commits."
+          "Using deep-learning to distinguish if a person entering a designated area is wearing a mask. If so keep the door unlocked, if not lock the door. This will help enforce new face mask policies. Group project for a Hackathon in June 2020. DevPost and GitHub linked below."
         }
-        link={"https://github.com/BryanBorge/bumble-webbot"}
+        link={"https://devpost.com/software/mask-i"}
+        link2={"https://github.com/mask-i"}
+        icon="fas fa-code fa-1x"
+        icon2="fab fa-github-square fa-2x"
+      />
+      <Project
+        img={FarFriendsLogo}
+        title={"Far Friends"}
+        desc={
+          "We've created an application where users from around the world can connect and socialize while remaining socially distant. You can monitor COVID in each country with our live map. Group project for a Hackton in May 2020. DevPost linked below."
+        }
+        link={"https://devpost.com/software/far-friends"}
+        link2={"https://github.com/mask-i"}
+        icon="fas fa-code fa-1x"
+        icon2="fab fa-github-square fa-2x"
+      />
+      <Project
+        img={NASALogo}
+        title={"NASA API Client"}
+        desc={
+          "Client app utilizing NASA's open APIs. Goal of this site is to make it easier for anyone to search data from the many APIs NASA has to offer. Still a work in progress but plan on making the parts live I currently have working."
+        }
+        link={"https://github.com/BryanBorge/nasa-api-client"}
+        icon="fab fa-github-square fa-2x"
       />
       <Project
         img={rpi}
         title={"Remote Temperature Monitor"}
         desc={
-          "Python script to monitor temp and rH remotely. Data from the RaspberryPi goes to Dweet.io then that data is read by Freeboard.io and is displayed in real time. The rPi is also wired up to a LCD display which shows current and min/max values."
+          "Python script to monitor real time temperature and humidity remotely using a RaspberryPi with a web dashboard. My RaspberryPi was repurposed for other projects so the dashboard is now offline."
         }
         link={"https://github.com/BryanBorge/temperature-monitor"}
-      />
-      <Project
-        img={journal}
-        title={"Surf Log Storage"}
-        desc={
-          "WPF application used to save information from personal surf sessions to a database. This is used for data entry. I will use this data on another project in the near future."
-        }
-        link={"https://github.com/BryanBorge/WPF-Surf-Report"}
-      />
-      <Project
-        img={dfmanager}
-        title={"Downloads Manager"}
-        desc={
-          "Python program used to read file types in downloads folder and put them where they belong."
-        }
-        link={"https://github.com/BryanBorge/python-download-manager"}
-      />
-      <Project
-        img={tictac}
-        title={"Python Tic-Tac-Toe"}
-        desc={"Console based Tic-Tac-Toe that is just about unbeatable"}
-        link={"https://github.com/BryanBorge/tictactoe-python"}
-      />
-
-      <Project
-        img={dale}
-        title={"Senior Project 2019"}
-        desc={
-          "Course Objective: Develop an information system that includes analysis, design planning and organization of a real life or simulated situation. My group chose to develop a Java application to manage video game tournaments."
-        }
-        link={"https://github.com/BryanBorge/TopGamer"}
+        icon="fab fa-github-square fa-2x"
       />
     </div>
   );
