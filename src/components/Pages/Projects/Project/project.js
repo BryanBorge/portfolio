@@ -1,7 +1,7 @@
 import React from "react";
 
 import classes from "./project.module.css";
-const project = props => {
+const project = (props) => {
   return (
     <div className={classes.Card}>
       <div className={classes.Image}>
@@ -17,7 +17,12 @@ const project = props => {
       <div className={classes.BottomRow}>
         <a href={props.link}>
           <div className={classes.Icon}>
-            <i className="fab fa-github-square fa-2x"></i>
+            <i className={props.icon}></i>
+          </div>
+        </a>
+        <a href={props.link2}>
+          <div className={classes.Icon2}>
+            <i className={props.icon2}></i>
           </div>
         </a>
       </div>
