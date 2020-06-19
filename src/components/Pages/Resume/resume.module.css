@@ -1,25 +1,25 @@
 .Resume {
-    display: grid;
-    grid-template-columns: repeat(3,minmax(50px,125px));
-    justify-items: center;
-    margin: 35px 35px;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(50px, 125px));
+  justify-items: center;
+  margin: 35px 35px;
 }
 
 div.p {
-    text-align: center;
+  text-align: center;
 }
 
 .Resume a:hover {
-	transition: transform .2s;
-	transform: translateY(-5px);
+  transition: transform 0.2s;
+  transform: translateY(-5px);
 }
 
 @media (max-width: 300px) {
-    .Resume {
-        display: grid;
-        grid-template-columns: repeat(1,minmax(100px,200px));
-        column-gap: 10px;
-        justify-items: center;
-        margin-top: 25px;
-    }
+  .Resume {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(100px, 200px));
+    column-gap: 10px;
+    justify-items: center;
+    margin-top: 25px;
+  }
 }
