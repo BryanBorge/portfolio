@@ -1,31 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "be61ed77c194f47d6df3726a231900bc",
+    "revision": "9a33016c6a913bd465c06c62251c707d",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "f6a9d0b2929170f1690e",
-    "url": "/portfolio/static/css/main.b3413b11.chunk.css"
+    "revision": "ed134ec3642d9b611bee",
+    "url": "/portfolio/static/css/main.3d69c362.chunk.css"
   },
   {
-    "revision": "92319e9b3833670330e8",
-    "url": "/portfolio/static/js/2.69abcf7b.chunk.js"
+    "revision": "d9a1a81b1564db8ed8dc",
+    "url": "/portfolio/static/js/2.bf28e9d4.chunk.js"
   },
   {
     "revision": "99bd0487192ec9e7d9ee8fbbd91ee444",
-    "url": "/portfolio/static/js/2.69abcf7b.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.bf28e9d4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f6a9d0b2929170f1690e",
-    "url": "/portfolio/static/js/main.ab10017a.chunk.js"
+    "revision": "ed134ec3642d9b611bee",
+    "url": "/portfolio/static/js/main.b8baa4ed.chunk.js"
   },
   {
     "revision": "38aaa630afa71aa979c8",
     "url": "/portfolio/static/js/runtime-main.418e5641.js"
-  },
-  {
-    "revision": "4393ef57623aa06db65de5341502d84e",
-    "url": "/portfolio/static/media/bumble.4393ef57.jpg"
   },
   {
     "revision": "9bde80c47d26ad9ad1cc777b039fe42f",
@@ -36,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/csharp.0a76803b.png"
   },
   {
-    "revision": "64fa278be381ecce10ec7d8c9978e355",
-    "url": "/portfolio/static/media/dale.64fa278b.jpeg"
+    "revision": "7bd7017980fff2b92d137c8a49871bda",
+    "url": "/portfolio/static/media/farfriends.7bd70179.jpg"
   },
   {
     "revision": "e4474bd09d05ea48435cce347fe95097",
@@ -56,16 +52,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/java.cd44c78f.png"
   },
   {
-    "revision": "9cf67277ce1fba2bfeb54c6b3c26e77a",
-    "url": "/portfolio/static/media/journal.9cf67277.jpg"
-  },
-  {
     "revision": "1fdd0da5368ff308e475750ee4fe2989",
     "url": "/portfolio/static/media/linux.1fdd0da5.png"
   },
   {
     "revision": "b031c86c7749b7f8d3376b01f373d6ae",
     "url": "/portfolio/static/media/liu.b031c86c.png"
+  },
+  {
+    "revision": "2350ad40af0ed0dcffc8042fd07d1cbd",
+    "url": "/portfolio/static/media/mask-eye.2350ad40.png"
+  },
+  {
+    "revision": "a43ffeade745003006f77e1553e99ba8",
+    "url": "/portfolio/static/media/nasa.a43ffead.png"
   },
   {
     "revision": "540397236c66ee18926006c2865a97f1",
@@ -86,9 +86,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "5b1d5ff51dd417a15fda23bb41a487de",
     "url": "/portfolio/static/media/rpi.5b1d5ff5.png"
-  },
-  {
-    "revision": "cdfc0b7d942ca604a56cb979c515e90f",
-    "url": "/portfolio/static/media/tictac.cdfc0b7d.png"
   }
 ]);
