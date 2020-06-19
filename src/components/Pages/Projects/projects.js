@@ -36,7 +36,7 @@ const projects = () => {
           "We've created an application where users from around the world can connect and socialize while remaining socially distant. You can monitor COVID in each country with our live map. Group project for a Hackton in May 2020. DevPost linked below."
         }
         link={"https://devpost.com/software/far-friends"}
-        link2={"https://github.com/mask-i"}
+        link2={"https://github.com/BryanBorge/ru-hack"}
         icon="fas fa-code fa-1x"
         icon2="fab fa-github-square fa-2x"
       />
