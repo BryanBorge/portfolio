@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.3d69c362.chunk.css",
-    "main.js": "/portfolio/static/js/main.7e603cda.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.7e603cda.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.5165aed2.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.5165aed2.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.418e5641.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.418e5641.js.map",
-    "static/js/2.bf28e9d4.chunk.js": "/portfolio/static/js/2.bf28e9d4.chunk.js",
-    "static/js/2.bf28e9d4.chunk.js.map": "/portfolio/static/js/2.bf28e9d4.chunk.js.map",
+    "static/js/2.9eeb7773.chunk.js": "/portfolio/static/js/2.9eeb7773.chunk.js",
+    "static/js/2.9eeb7773.chunk.js.map": "/portfolio/static/js/2.9eeb7773.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.b4a4de81559c605174402299f3879d0a.js": "/portfolio/precache-manifest.b4a4de81559c605174402299f3879d0a.js",
+    "precache-manifest.042b2ca0c554abf5023d5215cf520131.js": "/portfolio/precache-manifest.042b2ca0c554abf5023d5215cf520131.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/main.3d69c362.chunk.css.map": "/portfolio/static/css/main.3d69c362.chunk.css.map",
-    "static/js/2.bf28e9d4.chunk.js.LICENSE.txt": "/portfolio/static/js/2.bf28e9d4.chunk.js.LICENSE.txt",
+    "static/js/2.9eeb7773.chunk.js.LICENSE.txt": "/portfolio/static/js/2.9eeb7773.chunk.js.LICENSE.txt",
     "static/media/cpp.png": "/portfolio/static/media/cpp.9bde80c4.png",
     "static/media/csharp.png": "/portfolio/static/media/csharp.0a76803b.png",
     "static/media/farfriends.jpg": "/portfolio/static/media/farfriends.7bd70179.jpg",
@@ -22,7 +22,6 @@
     "static/media/linux.png": "/portfolio/static/media/linux.1fdd0da5.png",
     "static/media/liu.png": "/portfolio/static/media/liu.b031c86c.png",
     "static/media/mask-eye.png": "/portfolio/static/media/mask-eye.2350ad40.png",
-    "static/media/nasa.png": "/portfolio/static/media/nasa.a43ffead.png",
     "static/media/precipart.png": "/portfolio/static/media/precipart.54039723.png",
     "static/media/py.png": "/portfolio/static/media/py.8eefa0a8.png",
     "static/media/react.png": "/portfolio/static/media/react.47ce6e77.png",
@@ -31,8 +30,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.418e5641.js",
-    "static/js/2.bf28e9d4.chunk.js",
+    "static/js/2.9eeb7773.chunk.js",
     "static/css/main.3d69c362.chunk.css",
-    "static/js/main.7e603cda.chunk.js"
+    "static/js/main.5165aed2.chunk.js"
   ]
 }
