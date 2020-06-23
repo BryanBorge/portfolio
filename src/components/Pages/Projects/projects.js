@@ -4,7 +4,6 @@ import rpi from "../../../assets/Icons/rpi.png";
 import FarFriendsLogo from "../../../assets/Icons/farfriends.jpg";
 import MaskiLogo from "../../../assets/Icons/mask-eye.png";
 import reactLogo from "../../../assets/Icons/react.png";
-import NASALogo from "../../../assets/Icons/nasa.png";
 import classes from "./projects.module.css";
 const projects = () => {
   return (
@@ -39,15 +38,6 @@ const projects = () => {
         link2={"https://github.com/BryanBorge/ru-hack"}
         icon="fas fa-code fa-1x"
         icon2="fab fa-github-square fa-2x"
-      />
-      <Project
-        img={NASALogo}
-        title={"NASA API Client"}
-        desc={
-          "Client app utilizing NASA's open APIs. Goal of this site is to make it easier for anyone to search data from the many APIs NASA has to offer. Still a work in progress but plan on making the parts live I currently have working."
-        }
-        link={"https://github.com/BryanBorge/nasa-api-client"}
-        icon="fab fa-github-square fa-2x"
       />
       <Project
         img={rpi}
