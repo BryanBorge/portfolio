@@ -22,15 +22,16 @@
 }
 
 .Text p {
+  height: 50px;
   color: black;
   font-size: 13px;
   padding-bottom: 10px;
 }
 
 .BottomRow {
-  display: flex;
+  padding: 5px;
+  margin: 20px;
   align-items: center;
-  justify-content: space-between;
 }
 
 .Icon {
@@ -60,4 +61,16 @@
 .Image:hover {
   transition: transform 0.3s;
   transform: translateY(-30px);
+}
+
+.Chip {
+  margin-top: 5px;
+  padding-top: 5px;
+}
+
+.Chip ul li {
+  margin: 5px;
+  display: inline-block;
+  zoom: 1;
+  display: inline;
 }
