@@ -1,11 +1,17 @@
 import React from "react";
-
+import Chip from "@material-ui/core/Chip";
 import classes from "./project.module.css";
+
 const project = (props) => {
+  let listItems = props.stack.map((item) => (
+    <li key={item}>
+      <Chip label={item} />
+    </li>
+  ));
   return (
     <div className={classes.Card}>
       <div className={classes.Image}>
-        <img src={props.img} alt="bumble" />
+        <img src={props.img} alt='bumble' />
       </div>
       <div className={classes.Title}>
         <h1>{props.title}</h1>
@@ -13,6 +19,9 @@ const project = (props) => {
       <div className={classes.Text}>
         <p>{props.desc}</p>
         <p> </p>
+      </div>
+      <div className={classes.Chip}>
+        <ul>{listItems}</ul>
       </div>
       <div className={classes.BottomRow}>
         <a href={props.link}>
