@@ -12,10 +12,11 @@ const projects = () => {
         img={reactLogo}
         title={"Portfolio Website"}
         desc={
-          "You are already here! This site is the first thing I've built using ReactJS and it's being hosted on GitHub pages."
+          "You are already here! This site is the first thing I've built using ReactJS, using some components from MaterialUI. Being hosted on GitHub pages."
         }
         link={"https://github.com/BryanBorge/portfolio"}
-        icon="fab fa-github-square fa-2x"
+        icon='fab fa-github-square fa-2x'
+        stack={["React", "CSS", "MaterialUI"]}
       />
       <Project
         img={MaskiLogo}
@@ -25,28 +26,26 @@ const projects = () => {
         }
         link={"https://devpost.com/software/mask-i"}
         link2={"https://github.com/mask-i"}
-        icon="fas fa-code fa-1x"
-        icon2="fab fa-github-square fa-2x"
-      />
-      <Project
-        img={FarFriendsLogo}
-        title={"Far Friends"}
-        desc={
-          "We've created an application where users from around the world can connect and socialize while remaining socially distant. You can monitor COVID in each country with our live map. Group project for a Hackton in May 2020. DevPost linked below."
-        }
-        link={"https://devpost.com/software/far-friends"}
-        link2={"https://github.com/BryanBorge/ru-hack"}
-        icon="fas fa-code fa-1x"
-        icon2="fab fa-github-square fa-2x"
+        icon='fas fa-code fa-1x'
+        icon2='fab fa-github-square fa-2x'
+        stack={[
+          "React",
+          "RaspberryPi",
+          "IoT",
+          "Python",
+          "Hackathon",
+          "Machine Learning",
+        ]}
       />
       <Project
         img={rpi}
         title={"Remote Temperature Monitor"}
         desc={
-          "Python script to monitor real time temperature and humidity remotely using a RaspberryPi with a web dashboard. My RaspberryPi was repurposed for other projects so the dashboard is now offline."
+          "Web dashboard that uses data from RaspberryPi to monitor live temperature and humidity data."
         }
         link={"https://github.com/BryanBorge/temperature-monitor"}
-        icon="fab fa-github-square fa-2x"
+        icon='fab fa-github-square fa-2x'
+        stack={["Python", "RaspberryPi", "IoT", "Google APIs"]}
       />
     </div>
   );
