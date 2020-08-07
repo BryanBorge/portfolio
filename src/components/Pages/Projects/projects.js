@@ -16,6 +16,7 @@ const projects = () => {
         }
         link={"https://github.com/BryanBorge/portfolio"}
         icon='fab fa-github-square fa-2x'
+        tip='Link to GitHub'
         stack={["React", "CSS", "MaterialUI"]}
       />
       <Project
@@ -28,6 +29,8 @@ const projects = () => {
         link2={"https://github.com/mask-i"}
         icon='fas fa-code fa-1x'
         icon2='fab fa-github-square fa-2x'
+        tip='Link to DevPost'
+        tip2='Link to GitHub'
         stack={[
           "React",
           "RaspberryPi",
@@ -45,6 +48,7 @@ const projects = () => {
         }
         link={"https://github.com/BryanBorge/temperature-monitor"}
         icon='fab fa-github-square fa-2x'
+        tip='Link to GitHub'
         stack={["Python", "RaspberryPi", "IoT", "Google APIs"]}
       />
     </div>

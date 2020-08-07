@@ -63,14 +63,7 @@
   transform: translateY(-30px);
 }
 
-.Chip {
-  margin-top: 5px;
-  padding-top: 5px;
-}
-
 .Chip ul li {
   margin: 5px;
-  display: inline-block;
-  zoom: 1;
   display: inline;
 }
