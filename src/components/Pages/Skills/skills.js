@@ -9,6 +9,7 @@ import sqlLogo from "../../../assets/Icons/sql.png";
 import htmlLogo from "../../../assets/Icons/html.png";
 import pyLogo from "../../../assets/Icons/py.png";
 import linuxLogo from "../../../assets/Icons/linux.png";
+import nodeLogo from "../../../assets/Icons/node.png";
 import classes from "./skills.module.css";
 
 const skillInfo = {
@@ -29,7 +30,9 @@ const skillInfo = {
   linux:
     "First introduced during my Unix course at SUNY Farmingdale. Have experience scripting and building projects with a RaspberryPi. Have Ubuntu dual-booted on my main computer and use it for most of my development.",
   html:
-    "Familiar with HTML markup. Working on CSS skills as I build sites with React however I often use Bootstrap and Material UI. ",
+    "Familiar with HTML markup. Working on CSS skills as I build sites with React however I often use Material UI as a design library. ",
+  node:
+    "Completed a Udemy course covering extensive backend design using NodeJS. Currently using Node to build a backend for a personal project.",
 };
 
 const skills = () => {
@@ -45,6 +48,7 @@ const skills = () => {
         <Skill skill={sqlLogo} info={skillInfo.sql} />
         <Skill skill={linuxLogo} info={skillInfo.linux} />
         <Skill skill={htmlLogo} info={skillInfo.html} />
+        <Skill skill={nodeLogo} info={skillInfo.node} />
       </div>
     </div>
   );
