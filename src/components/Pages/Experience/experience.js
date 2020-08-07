@@ -24,20 +24,23 @@ const experience = () => {
     <div className={classes.exp}>
       <Job
         logo={PrecipartLogo}
-        company="Precipart"
-        link="http://www.precipart.com"
-        title="Digital Solutions Intern"
-        desc="Precipart designs and manufactures high precision custom gears and mechanical components for the Medical Technology, Aerospace and Industrial sectors."
+        company='Precipart'
+        link='http://www.precipart.com'
+        companyTip='Link to Precipart.com'
+        title='Digital Solutions Intern'
+        desc='Precipart designs and manufactures high precision custom gears and mechanical components for the Medical Technology, Aerospace and Industrial sectors.'
         items={precipartItems}
         time={preipartTime}
       />
       <Job
         logo={RmsLogo}
-        company="Rink Management Services"
-        link="https://www.rinkmanagement.com/"
-        desc="Rink Management Services is the largest operator of ice skating facilities in the U.S. and the only company with a national footprint"
-        title="Assistant Manager - Tanger Outlets"
-        secondLink="https://www.tangericerink.com/"
+        company='Rink Management Services'
+        companyTip='Link to RinkManagement.com'
+        link='https://www.rinkmanagement.com/'
+        desc='Rink Management Services is the largest operator of ice skating facilities in the U.S. and the only company with a national footprint'
+        title='Assistant Manager - Tanger Outlets'
+        titleTip='Link to Tanger Outles Ice Rink'
+        secondLink='https://www.tangericerink.com/'
         items={rmsItems}
         time={rmsTime}
       />
