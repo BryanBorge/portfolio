@@ -1,5 +1,6 @@
 .maincontent {
   width: 100%;
+  height: 100%;
   display: flex;
   flex-flow: column;
   align-items: center;
@@ -8,7 +9,7 @@
   background-image: url("./assets/Background/ignasi_pattern_s.png");
   background-repeat: inherit;
   background-attachment: fixed;
-  background-position: center; 
+  background-position: center;
 }
 
 @media (max-width: 500px) {
