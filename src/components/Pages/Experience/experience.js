@@ -2,7 +2,13 @@ import React from "react";
 import Job from "./Job/job";
 import PrecipartLogo from "../../../assets/Icons/precipart.png";
 import RmsLogo from "../../../assets/Icons/rms.jpeg";
+import MKRLogo from "../../../assets/Icons/MKR_Logo.png";
 import classes from "./experience.module.css";
+
+
+let mkrItems = ["Mobile app currently in development"];
+let mkrTime = "Sept 2020 - Current | Remote";
+
 
 let precipartItems = [
   "Supported the company in a Global migration to an upgraded ERP solution ",
@@ -22,6 +28,16 @@ let rmsTime = "Jan 2018 - March 2020 | Deer Park, NY";
 const experience = () => {
   return (
     <div className={classes.exp}>
+      <Job
+        logo={MKRLogo}
+        company='Manic Kat Records'
+        link='http://www.manickatrecords.com'
+        companyTip='Link to Manickatrecords.com'
+        title='Application Developer'
+        desc='New York based independent record label bringing you the best up and coming Pop Punk, Hardcore, Punk, Post-Hardcore, Ska, Emo, Metal, and Alternative artists.'
+        items={mkrItems}
+        time={mkrTime}
+      />
       <Job
         logo={PrecipartLogo}
         company='Precipart'
