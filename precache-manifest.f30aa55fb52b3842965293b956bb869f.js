@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f1b16d6748f9e146fc3fd53133fd49db",
+    "revision": "0288c9c3164363725eeef354e8948400",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "3c82fc5412d08366d3ff",
-    "url": "/portfolio/static/css/main.e92a1052.chunk.css"
+    "revision": "34f53d31f53f6f5c825b",
+    "url": "/portfolio/static/css/main.06f95989.chunk.css"
   },
   {
-    "revision": "1e1edf53f0f15a3c7c57",
-    "url": "/portfolio/static/js/2.20d763ae.chunk.js"
+    "revision": "02571c8d788abd591150",
+    "url": "/portfolio/static/js/2.ff7da70d.chunk.js"
   },
   {
     "revision": "83af3834c661e921ae64d25afaae3aaa",
-    "url": "/portfolio/static/js/2.20d763ae.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.ff7da70d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3c82fc5412d08366d3ff",
-    "url": "/portfolio/static/js/main.55af19ef.chunk.js"
+    "revision": "34f53d31f53f6f5c825b",
+    "url": "/portfolio/static/js/main.c567f256.chunk.js"
   },
   {
     "revision": "38aaa630afa71aa979c8",
     "url": "/portfolio/static/js/runtime-main.418e5641.js"
+  },
+  {
+    "revision": "91fe5c7018b639c870826a3cc7e2fdbc",
+    "url": "/portfolio/static/media/MKR_Logo.91fe5c70.png"
   },
   {
     "revision": "9bde80c47d26ad9ad1cc777b039fe42f",
