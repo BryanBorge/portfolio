@@ -80,8 +80,6 @@ a:link {
 }
 
 @media (max-width: 450px) {
-  
-
   .title {
     display: grid;
     grid-template-columns: repeat(1, minmax(10px, 300px));
@@ -90,6 +88,6 @@ a:link {
   }
 
   .infocard {
-   height: 800px;
+    height: 800px;
   }
 }
