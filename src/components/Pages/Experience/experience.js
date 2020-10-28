@@ -19,7 +19,6 @@ let preipartTime = "Feb 2019 - April 2019 | Farmingdale, NY";
 
 let rmsItems = [
   "Oversee daily operations for an ice rink inside of an 800,000 square-foot outdoor mall",
-  "Maintained an accurate cash draw of average $1500 per shift",
   "Ensured the safety and enjoyment of skaters on and off the ice",
   "Head of ice maintenance and Zamboni operation",
 ];
