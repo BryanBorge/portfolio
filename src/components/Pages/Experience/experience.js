@@ -5,10 +5,8 @@ import RmsLogo from "../../../assets/Icons/rms.jpeg";
 import MKRLogo from "../../../assets/Icons/MKR_Logo.png";
 import classes from "./experience.module.css";
 
-
 let mkrItems = ["Mobile app currently in development"];
 let mkrTime = "Sept 2020 - Current | Remote";
-
 
 let precipartItems = [
   "Supported the company in a Global migration to an upgraded ERP solution ",
