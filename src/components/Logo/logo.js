@@ -5,7 +5,7 @@ const logo = () => {
   return (
     <div className={classes.Logo}>
       <h3>Bryan Borgesano</h3>
-      <p>Entry Level Developer</p>
+      <p>Full Stack React Developer</p>
     </div>
   );
 };
