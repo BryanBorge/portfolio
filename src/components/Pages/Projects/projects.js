@@ -1,10 +1,11 @@
 import React from "react";
 import Project from "./Project/project";
 import rpi from "../../../assets/Icons/rpi.png";
-import FarFriendsLogo from "../../../assets/Icons/farfriends.jpg";
 import MaskiLogo from "../../../assets/Icons/mask-eye.png";
 import reactLogo from "../../../assets/Icons/react.png";
+import pennAndTellerLogo from "../../../assets/Icons/pandt.jpg";
 import classes from "./projects.module.css";
+
 const projects = () => {
   return (
     <div className={classes.Projects}>
@@ -38,13 +39,25 @@ const projects = () => {
           "Python",
           "Hackathon",
           "Machine Learning",
+          "MaterialUI",
         ]}
+      />
+      <Project
+        img={pennAndTellerLogo}
+        title={"Penn and Teller: Bullshit Downloader"}
+        desc={
+          "I found a site that contains every episode of Penn & Teller's Bullshit. Instead downloading each episode one by one I wrote a  Python script to do it for me. Using Selenium, BeautifulSoup and urllib, this is the solution I came up with."
+        }
+        link={"https://github.com/BryanBorge/bullshit-downloader"}
+        icon='fab fa-github-square fa-2x'
+        tip='Link to GitHub'
+        stack={["Python", "BeautifulSoup", "urllib", "Selenium", "Web Scraping"]}
       />
       <Project
         img={rpi}
         title={"Remote Temperature Monitor"}
         desc={
-          "Web dashboard that uses data from RaspberryPi to monitor live temperature and humidity data."
+          "Web dashboard to display live data from a RaspberryPi. Sensor data is read from the pi at regular intervals and sent to Dweet.io. The dashboard then updates from Dweet.io for real time data visualization."
         }
         link={"https://github.com/BryanBorge/temperature-monitor"}
         icon='fab fa-github-square fa-2x'
