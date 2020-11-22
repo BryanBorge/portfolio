@@ -19,12 +19,6 @@ const resume = () => {
         <i className='fab fa-github-square fa-4x'></i>
         <p>GitHub</p>
       </a>{" "}
-      <Tooltip title={"Link to DevPost profile"}>
-        <a href='https://devpost.com/BryanBorge?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav'>
-          <i className='fas fa-file-code fa-4x'></i>
-          <p>DevPost</p>
-        </a>
-      </Tooltip>
     </div>
   );
 };
