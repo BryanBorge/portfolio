@@ -5,20 +5,15 @@ const about = () => {
   return (
     <div className={classes.about}>
       <p>
-        Aspiring full stack developer with a life long fascination for
-        technology. Fueled by a passion for creation and progression, I am eager
-        to learn the latest technologies through continued coursework and
-        professional development. I've had experience with Object-oriented
-        programming languages (Java, C#, C++) while studying at SUNY Farmingdale
-        and have began to learn full-stack web development with React and
-        Node.js
+        Full stack developer with a life long fascination for technology. Fueled by a passion for
+        creation and progression, I am eager to learn the latest technologies through continued
+        coursework and professional development. I've had experience with Object-oriented
+        programming languages (Java, C#, C++) while studying at SUNY Farmingdale and have current
+        focus on full stack development with the MERN stack. (MongoDB, Express, React/React Native,
+        Node.js)
       </p>
-      <p className={classes.focus}>
-       
-      </p>
-      <p>
-        This site was developed by me and shows some of my background. Welcome!
-      </p>
+      <p className={classes.focus}></p>
+      <p>This site was developed by me and shows some of my background. Welcome!</p>
     </div>
   );
 };
