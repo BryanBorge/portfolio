@@ -2,8 +2,8 @@ import React from "react";
 import classes from "./job.module.css";
 import Tooltip from "@material-ui/core/Tooltip";
 
-const job = (props) => {
-  let listItems = props.items.map((item) => (
+const job = props => {
+  let listItems = props.items.map(item => (
     <li className={classes.items} key={item}>
       {item}
     </li>
