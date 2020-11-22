@@ -6,49 +6,48 @@ import gitLogo from "../../../assets/Icons/git.png";
 import javaLogo from "../../../assets/Icons/java.png";
 import reactLogo from "../../../assets/Icons/react.png";
 import sqlLogo from "../../../assets/Icons/sql.png";
-import htmlLogo from "../../../assets/Icons/html.png";
 import pyLogo from "../../../assets/Icons/py.png";
 import linuxLogo from "../../../assets/Icons/linux.png";
 import nodeLogo from "../../../assets/Icons/node.png";
+import mongoLogo from "../../../assets/Icons/mongo.png";
 import classes from "./skills.module.css";
 
 const skillInfo = {
   csharp:
-    "Used C# to write DLLs for use in WPF applications and wrote programs that utilize web services and multithreading. Database experience using Azure for a personal project.",
+    "Used C# to write DLLs for use in WPF applications that utilize web services and multithreading. Experience using Azure database for personal projects.",
   cpp:
-    "Used C++ to build data structures dealing with low level memory management. Also used for my algorithms class where I learned time/space complexity, sorting/searching and tree/graph algorithms.",
+    "Used C++ to build and learn data structures. Also used for my algorithms class where I learned time/space complexity, sorting/searching and tree/graph algorithms.",
   git:
-    "Very familar with using Git version control. Use Git/Github for all Hackathons and personal projects.",
+    "Proficient with Git version control. Use Git/Github for all Hackathons, personal and professional projects.",
   java:
-    "Took a course at Farmingdale covering things such Object Oriented design and principles, GUIs, interfaces and error handing. Used Java to build a desktop app for our senior project using JDBC and Azure.",
+    "Took an undergrad course covering things like Object Oriented design and principles, GUIs, interfaces and error handing. Used Java to build a desktop app using JavaFX, JDBC and Azure.",
   python:
-    "My current go to language. Most of my experience is from scripting on a RaspberryPi. I've used Python for projects involving web scraping, APIs, reading sensors and managing the file system on my computer",
+    "Most of my experience is from scripting on a RaspberryPi. I've used Python for web scraping, accessing APIs, reading sensor data and managing the file system on my computer",
   react:
-    "Completed a 45 hour course on React where I learned hooks, ContextAPI, Routing and more. Focusing on fast, user friendly, mobile-first responsive designs. Have since been focusing on full stack React development using the MERN stack.",
-  sql:
-    "Took two courses on SQL at SUNY Farmingdale using Oracle and SQl Server focusing on DML statements. Have sinced used Azure for school projects using Java and personal projects using C#.",
+    "Completed two 45 hour Udemy courses on React and React Native. One year of experience designing user friendly, mobile-first responsive web applications using MaterialUI as a design library. Using React Native for current mobile app development. ",
+  sql: "Took two undergrad SQL courses using Oracle and SQL Server focusing on DML statements.",
   linux:
-    "First introduced during my Unix course at SUNY Farmingdale. Have experience scripting and building projects with a RaspberryPi. Have Ubuntu dual-booted on my main computer and use it for most of my development.",
-  html:
-    "Familiar with HTML markup. Working on CSS skills as I build sites with React however I often use Material UI as a design library. ",
+    "Took an undergrad Unix course. Mainly used for building projects with a RaspberryPi. Have some experience using Ubuntu for development",
   node:
-    "Completed a Udemy course covering extensive backend design using NodeJS. Currently using Node to build a backend for a personal project.",
+    "Completed a Udemy course covering extensive backend design using NodeJS and express. Have since built numerous restful APIs implementing user authentication with JWT.",
+  mongo:
+    "Completed a Udemy course on MongoDB and have been using it for all API development in Node. Familiar with CRUD operations, filtering data and relating data using refrences and embedding.",
 };
 
 const skills = () => {
   return (
     <div>
       <div className={classes.Skills}>
+        <Skill skill={reactLogo} info={skillInfo.react} />
+        <Skill skill={nodeLogo} info={skillInfo.node} />
+        <Skill skill={gitLogo} info={skillInfo.git} />
+        <Skill skill={mongoLogo} info={skillInfo.mongo} />
+        <Skill skill={pyLogo} info={skillInfo.python} />
         <Skill skill={csharpLogo} info={skillInfo.csharp} />
         <Skill skill={cppLogo} info={skillInfo.cpp} />
-        <Skill skill={gitLogo} info={skillInfo.git} />
         <Skill skill={javaLogo} info={skillInfo.java} />
-        <Skill skill={pyLogo} info={skillInfo.python} />
-        <Skill skill={reactLogo} info={skillInfo.react} />
         <Skill skill={sqlLogo} info={skillInfo.sql} />
         <Skill skill={linuxLogo} info={skillInfo.linux} />
-        <Skill skill={htmlLogo} info={skillInfo.html} />
-        <Skill skill={nodeLogo} info={skillInfo.node} />
       </div>
     </div>
   );
