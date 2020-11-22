@@ -5,7 +5,10 @@ import RmsLogo from "../../../assets/Icons/rms.jpeg";
 import MKRLogo from "../../../assets/Icons/MKR_Logo.png";
 import classes from "./experience.module.css";
 
-let mkrItems = ["Mobile app currently in development"];
+let mkrItems = [
+  "Leading the design and development of a mobile application using React Native",
+  "Developed and Implemented restful API with Node/Express and MongoDB",
+];
 let mkrTime = "Sept 2020 - Current | Remote";
 
 let precipartItems = [
