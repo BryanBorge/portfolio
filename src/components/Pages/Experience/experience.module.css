@@ -7,7 +7,17 @@
   text-align: center;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1140px) {
+  .exp {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(200px, 400px));
+    grid-template-rows: auto-fit;
+    column-gap: 25px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 700px) {
   .exp {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 400px));
