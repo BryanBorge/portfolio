@@ -8,8 +8,8 @@ const about = () => {
         Full stack developer with a life long fascination for technology. Fueled by a passion for
         creation and progression, I am eager to learn the latest technologies through continued
         coursework and professional development. I've had experience with Object-oriented
-        programming languages (Java, C#, C++) while studying at SUNY Farmingdale and have current
-        focus on full stack development with the MERN stack. (MongoDB, Express, React/React Native,
+        programming languages (Java, C#, C++) while studying at SUNY Farmingdale and have a current
+        focus on full stack development using the MERN stack. (MongoDB, Express, React/React Native,
         Node.js)
       </p>
       <p className={classes.focus}></p>
