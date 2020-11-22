@@ -40,15 +40,16 @@ span {
 }
 
 .Logo {
-  width: 80px;
-  height: auto;
+  width: 150px;
+  height: 75px;
   margin-top: 15px;
 }
 
 .title {
   margin: 35px 35px;
+  height: 130px;
   display: grid;
-  grid-template-columns: repeat(2, minmax(10px, 300px));
+  /* grid-template-columns: repeat(1, minmax(10px, 300px)); */
   grid-template-rows: auto-fit;
   column-gap: 35px;
   justify-items: center;
@@ -83,6 +84,6 @@ span {
   }
 
   .card {
-    height: 450px
+    height: 450px;
   }
 }
