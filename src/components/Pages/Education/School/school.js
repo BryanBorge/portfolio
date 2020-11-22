@@ -1,8 +1,8 @@
 import React from "react";
 import classes from "./school.module.css";
 import Tooltip from "@material-ui/core/Tooltip";
-const school = (props) => {
-  let listItems = props.items.map((item) => <li key={item}>{item}</li>);
+const school = props => {
+  let listItems = props.items.map(item => <li key={item}>{item}</li>);
   // let courses = props.courses.map(item => <li key={item}>{item}</li>);
   return (
     <div className={classes.card}>
