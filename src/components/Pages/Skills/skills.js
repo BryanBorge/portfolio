@@ -10,6 +10,7 @@ import pyLogo from "../../../assets/Icons/py.png";
 import linuxLogo from "../../../assets/Icons/linux.png";
 import nodeLogo from "../../../assets/Icons/node.png";
 import mongoLogo from "../../../assets/Icons/mongo.png";
+import reduxLogo from "../../../assets/Icons/redux.png";
 import classes from "./skills.module.css";
 
 const skillInfo = {
@@ -32,6 +33,8 @@ const skillInfo = {
     "Completed a Udemy course covering extensive backend design using NodeJS and express. Have since built numerous restful APIs implementing user authentication with JWT.",
   mongo:
     "Completed a Udemy course on MongoDB and have been using it for all API development in Node. Familiar with CRUD operations, filtering data and relating data using refrences and embedding.",
+  redux:
+    "Experience setting up a Redux store containing multiple reducers, dispatching actions and writing immutable reducer functions to update state. Familar using Redux-Thunk for asynchronous actions when utilizing APIs and web services. ",
 };
 
 const skills = () => {
@@ -39,6 +42,7 @@ const skills = () => {
     <div>
       <div className={classes.Skills}>
         <Skill skill={reactLogo} info={skillInfo.react} />
+        <Skill skill={reduxLogo} info={skillInfo.redux} />
         <Skill skill={nodeLogo} info={skillInfo.node} />
         <Skill skill={gitLogo} info={skillInfo.git} />
         <Skill skill={mongoLogo} info={skillInfo.mongo} />
