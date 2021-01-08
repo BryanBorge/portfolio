@@ -6,8 +6,12 @@ import MKRLogo from "../../../assets/Icons/MKR_Logo.png";
 import classes from "./experience.module.css";
 
 let mkrItems = [
-  "Leading the design and development of a mobile application using React Native",
-  "Developed and Implemented restful API with Node/Express and MongoDB",
+  "Leading the development of a React Native application using the Expo framework",
+  "Utilizing Redux and Redux-Thunk for state management",
+  "Developed and implemented REST API with Node/Express",
+  "Configured and maintain MongoDB database",
+  "Implemented authentication with JWT, account verification and password reset",
+  "Created custom email templates using handlebars",
 ];
 let mkrTime = "Sept 2020 - Current | Remote";
 
@@ -30,33 +34,33 @@ const experience = () => {
     <div className={classes.exp}>
       <Job
         logo={MKRLogo}
-        company='Manic Kat Records'
-        link='http://www.manickatrecords.com'
-        companyTip='Link to Manickatrecords.com'
-        title='Application Developer'
-        desc='New York based independent record label bringing you the best up and coming Pop Punk, Hardcore, Punk, Post-Hardcore, Ska, Emo, Metal, and Alternative artists.'
+        company="Manic Kat Records"
+        link="http://www.manickatrecords.com"
+        companyTip="Link to Manickatrecords.com"
+        title="Application Developer"
+        desc="New York based independent record label bringing you the best up and coming Pop Punk, Hardcore, Punk, Post-Hardcore, Ska, Emo, Metal, and Alternative artists."
         items={mkrItems}
         time={mkrTime}
       />
       <Job
         logo={PrecipartLogo}
-        company='Precipart'
-        link='http://www.precipart.com'
-        companyTip='Link to Precipart.com'
-        title='Digital Solutions Intern'
-        desc='Precipart designs and manufactures high precision custom gears and mechanical components for the Medical Technology, Aerospace and Industrial sectors.'
+        company="Precipart"
+        link="http://www.precipart.com"
+        companyTip="Link to Precipart.com"
+        title="Digital Solutions Intern"
+        desc="Precipart designs and manufactures high precision custom gears and mechanical components for the Medical Technology, Aerospace and Industrial sectors."
         items={precipartItems}
         time={preipartTime}
       />
       <Job
         logo={RmsLogo}
-        company='Rink Management Services'
-        companyTip='Link to RinkManagement.com'
-        link='https://www.rinkmanagement.com/'
-        desc='Rink Management Services is the largest operator of ice skating facilities in the U.S. and the only company with a national footprint'
-        title='Assistant Manager - Tanger Outlets'
-        titleTip='Link to Tanger Outles Ice Rink'
-        secondLink='https://www.tangericerink.com/'
+        company="Rink Management Services"
+        companyTip="Link to RinkManagement.com"
+        link="https://www.rinkmanagement.com/"
+        desc="Rink Management Services is the largest operator of ice skating facilities in the U.S. and the only company with a national footprint"
+        title="Assistant Manager - Tanger Outlets"
+        titleTip="Link to Tanger Outles Ice Rink"
+        secondLink="https://www.tangericerink.com/"
         items={rmsItems}
         time={rmsTime}
       />
