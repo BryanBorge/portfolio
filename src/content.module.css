@@ -12,6 +12,10 @@
   background-position: center;
 }
 
+.updatedAt {
+  font-size: 12px;
+}
+
 @media (max-width: 500px) {
   .maincontent {
     margin: 0;
