@@ -54,7 +54,7 @@ const projects = () => {
         link={"https://github.com/tent-dashboard"}
         icon="fab fa-github-square fa-2x"
         tip="Link to GitHub"
-        stack={["Python", "RaspberryPi", "IoT", "Firebase", "React", "Redux", "MaterialUI"]}
+        stack={["Python", "RaspberryPi", "IoT", "Firebase", "React", "Context API", "MaterialUI"]}
       />
     </div>
   );
