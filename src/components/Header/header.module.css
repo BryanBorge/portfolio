@@ -1,19 +1,16 @@
 .header {
-    margin-top: 10px;
-    height: 80px;
-    width: 100%;
-    max-width: 1920px;
-    min-width: 500px;
-    color: white;
-    font-size: 40px;
-    font-family: "Open Sans", sans-serif;
-    background-color: slategray;
-    text-align: left;
-    padding-left: 20px;
-    padding-top: 15px;
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-  }
-
- 
+  margin-top: 10px;
+  height: 80px;
+  width: 100%;
+  max-width: 1920px;
+  color: white;
+  font-size: 40px;
+  font-family: "Open Sans", sans-serif;
+  background-color: slategray;
+  text-align: left;
+  padding-left: 20px;
+  padding-top: 15px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
