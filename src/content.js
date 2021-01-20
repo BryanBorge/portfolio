@@ -8,7 +8,7 @@ import Resume from "./components/Pages/Resume/resume";
 import Projects from "./components/Pages/Projects/projects";
 import classes from "./content.module.css";
 
-const lastUpdated = new Date("Fri Jan 08 2021 15:58:27").toLocaleString("en-US");
+const lastUpdated = new Date("Sun Jan 17 2021 11:27:04").toLocaleString("en-US");
 
 const content = () => {
   return (
