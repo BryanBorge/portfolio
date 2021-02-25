@@ -4,11 +4,44 @@ import rpi from "../../../assets/Icons/rpi.png";
 import MaskiLogo from "../../../assets/Icons/mask-eye.png";
 import reactLogo from "../../../assets/Icons/react.png";
 import pennAndTellerLogo from "../../../assets/Icons/pandt.jpg";
+import devdojo from "../../../assets/Icons/devdojo.jpg";
+import punkhub from "../../../assets/Icons/punkhub.jpg";
 import classes from "./projects.module.css";
 
 const projects = () => {
   return (
     <div className={classes.Projects}>
+      <Project
+        img={devdojo}
+        title={"My Blog"}
+        desc={
+          "Just starting to write about solutions to problems I come across and other software/tech related things I find interesting or that may help other entry level developers. "
+        }
+        link={"https://devdojo.com/bryanborge"}
+        icon="fas fa-code fa-1x"
+        tip="Link to DevDojo Profile"
+        stack={["DevDojo", "Development Blog"]}
+      />{" "}
+      <Project
+        img={punkhub}
+        title={"Punk Hub Live"}
+        desc={"Punk	Hub	Live is a	socially interactive live	streaming	platform that is currently in development."}
+        link={"https://www.manickatrecords.com/"}
+        icon="fas fa-code fa-1x"
+        tip="Link to Manic Kat Records"
+        stack={[
+          "React Native",
+          "Expo",
+          "Redux",
+          "Redux-Thunk",
+          "Node",
+          "Express",
+          "MongoDB",
+          "REST API",
+          "Heroku",
+          "Google Cloud",
+        ]}
+      />
       <Project
         img={reactLogo}
         title={"Portfolio Website"}
@@ -18,21 +51,7 @@ const projects = () => {
         link={"https://github.com/BryanBorge/portfolio"}
         icon="fab fa-github-square fa-2x"
         tip="Link to GitHub"
-        stack={["React", "CSS", "MaterialUI"]}
-      />
-      <Project
-        img={MaskiLogo}
-        title={"Mask-i"}
-        desc={
-          "Using deep-learning to distinguish if a person entering a designated area is wearing a mask. If so keep the door unlocked, if not lock the door. This will help enforce new face mask policies. Group project for a Hackathon in June 2020. DevPost and GitHub linked below."
-        }
-        link={"https://devpost.com/software/mask-i"}
-        link2={"https://github.com/mask-i"}
-        icon="fas fa-code fa-1x"
-        icon2="fab fa-github-square fa-2x"
-        tip="Link to DevPost"
-        tip2="Link to GitHub"
-        stack={["React", "RaspberryPi", "IoT", "Python", "Hackathon", "Machine Learning", "MaterialUI"]}
+        stack={["React", "CSS modules", "MaterialUI"]}
       />
       <Project
         img={pennAndTellerLogo}
@@ -46,15 +65,18 @@ const projects = () => {
         stack={["Python", "BeautifulSoup", "urllib", "Selenium", "Web Scraping"]}
       />
       <Project
-        img={rpi}
-        title={"Remote Temperature Monitor"}
+        img={MaskiLogo}
+        title={"Mask-i"}
         desc={
-          "Web dashboard to display live data from a RaspberryPi. Sensor data is read from the pi at regular intervals and sent to a Firebase real time database. The dashboard then updates for real time data visualization."
+          "Using deep-learning to distinguish if a person entering a designated area is wearing a mask or not. Group project for a Hackathon in June 2020. DevPost and GitHub linked below."
         }
-        link={"https://github.com/tent-dashboard"}
-        icon="fab fa-github-square fa-2x"
-        tip="Link to GitHub"
-        stack={["Python", "RaspberryPi", "IoT", "Firebase", "React", "Context API", "MaterialUI"]}
+        link={"https://devpost.com/software/mask-i"}
+        link2={"https://github.com/mask-i"}
+        icon="fas fa-code fa-1x"
+        icon2="fab fa-github-square fa-2x"
+        tip="Link to DevPost"
+        tip2="Link to GitHub"
+        stack={["React", "RaspberryPi", "IoT", "Python", "Hackathon", "Machine Learning", "MaterialUI"]}
       />
     </div>
   );
