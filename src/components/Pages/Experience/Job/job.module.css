@@ -5,7 +5,7 @@
   display: block;
   width: 100%;
   max-width: 500px;
-  min-height: 615px;
+  min-height: 610px;
   height: "100%";
   margin: 5px;
   padding: 0;
@@ -89,6 +89,6 @@ a:link {
   }
 
   .infocard {
-    height: 800px;
+    height: "100%";
   }
 }
