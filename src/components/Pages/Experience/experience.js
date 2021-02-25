@@ -8,10 +8,14 @@ import classes from "./experience.module.css";
 let mkrItems = [
   "Leading the development of a React Native application using the Expo framework",
   "Utilizing Redux and Redux-Thunk for state management",
+  "Set up and maintain MongoDB database",
   "Developed and implemented REST API with Node/Express",
-  "Configured and maintain MongoDB database",
-  "Implemented authentication with JWT, account verification and password reset",
-  "Created custom email templates using handlebars",
+  "Deployed API using GitHub and Heroku",
+  "Implemented authentication with JWT",
+  "Implemented account verification and password reset",
+  "Utilized Google Cloud Storage for image hosting",
+  "Enabled payments using Expo and the Stripe API",
+  "Set up custom push notifications",
 ];
 let mkrTime = "Sept 2020 - Current | Remote";
 
