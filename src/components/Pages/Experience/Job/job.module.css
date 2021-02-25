@@ -5,7 +5,7 @@
   display: block;
   width: 100%;
   max-width: 500px;
-  min-height: 610px;
+  min-height: 725px;
   height: "100%";
   margin: 5px;
   padding: 0;
@@ -78,6 +78,10 @@ a:link {
   position: absolute;
   bottom: 0;
   margin: 10px;
+}
+
+.listItem {
+  font-size: 14px;
 }
 
 @media (max-width: 450px) {
