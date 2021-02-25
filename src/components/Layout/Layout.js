@@ -1,20 +1,20 @@
-import React, { Component } from "react";
+import React, {Component} from "react";
 import Aux from "../../hoc/ReactAux";
 import SideBar from "../Sidebar/sidebar";
 import Toolbar from "../Toolbar/Toolbar";
 import classes from "./Layout.module.css";
 class Layout extends Component {
   state = {
-    showSideBar: false
+    showSideBar: false,
   };
 
   sideBarClosedHandler = () => {
-    this.setState({ showSideBar: false });
+    this.setState({showSideBar: false});
   };
 
   sideBarToggleHandler = () => {
     this.setState(prevState => {
-      return { showSideBar: !prevState.showSideBar };
+      return {showSideBar: !prevState.showSideBar};
     });
   };
 
@@ -22,10 +22,10 @@ class Layout extends Component {
     return (
       <Aux>
         <Toolbar barToggleClicked={this.sideBarToggleHandler} />
-        <SideBar
+        {/* <SideBar
           open={this.state.showSideBar}
           closed={this.sideBarClosedHandler}
-        />
+        /> */}
         <main className={classes.Content}>{this.props.children}</main>
       </Aux>
     );
