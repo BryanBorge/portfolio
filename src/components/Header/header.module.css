@@ -1,5 +1,5 @@
 .header {
-  margin-top: 10px;
+  margin-top: 5px;
   height: 80px;
   width: 100%;
   max-width: 1920px;
@@ -13,4 +13,10 @@
   display: flex;
   flex-flow: column;
   align-items: center;
+}
+
+@media (max-width: 500px) {
+  .header {
+    margin-top: 40px;
+  }
 }
