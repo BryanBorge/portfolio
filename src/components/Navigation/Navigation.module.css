@@ -1,15 +1,21 @@
 .Navigation {
-    margin: 0px;
-    padding: 0;
-    list-style: none;
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    height: 20%;
+  margin: 0px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  height: 20%;
 }
 
 @media (min-width: 625px) {
-    .Navigation {
-        flex-flow: row;
-    }
+  .Navigation {
+    flex-flow: row;
+  }
+}
+
+@media (max-width: 650px) {
+  .Navigation {
+    display: none;
+  }
 }
