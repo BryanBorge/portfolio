@@ -12,7 +12,7 @@ const job = props => {
     <div>
       <div className={classes.infocard}>
         <div className={classes.title}>
-          <img className={classes.Logo} src={props.logo} alt='logo' />
+          <img className={classes.Logo} src={props.logo} alt="logo" />
 
           <Tooltip title={props.companyTip}>
             <a href={props.link}>
@@ -34,7 +34,7 @@ const job = props => {
         <div className={classes.titlehr} />
         <div className={classes.desc}>{props.desc}</div>
         <div>
-          <ul>{listItems}</ul>
+          <ul className={classes.listItem}>{listItems}</ul>
         </div>
         <div className={classes.time}>
           <p>{props.time}</p>
