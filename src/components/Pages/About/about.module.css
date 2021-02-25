@@ -1,19 +1,19 @@
 .about {
-    margin: 35px 35px;
+  margin: 20px 50px;
 }
 
-.about p{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 22px;
-    margin: 30px;
-    color: black
+.about p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 22px;
+  margin: 30px;
+  color: black;
 }
 
 .focus {
-    font-weight: bolder;
-    color: black
+  font-weight: bolder;
+  color: black;
 }
 
 .focus a {
-    text-decoration: underline;
+  text-decoration: underline;
 }
