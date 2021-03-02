@@ -3,6 +3,7 @@ import Project from "./Project/project";
 import rpi from "../../../assets/Icons/rpi.png";
 import MaskiLogo from "../../../assets/Icons/mask-eye.png";
 import reactLogo from "../../../assets/Icons/react.png";
+import plant from "../../../assets/Icons/plant.png";
 import pennAndTellerLogo from "../../../assets/Icons/pandt.jpg";
 import devdojo from "../../../assets/Icons/devdojo.jpg";
 import punkhub from "../../../assets/Icons/punkhub.jpg";
@@ -21,7 +22,35 @@ const projects = () => {
         icon="fas fa-code fa-1x"
         tip="Link to DevDojo Profile"
         stack={["DevDojo", "Development Blog"]}
-      />{" "}
+      />
+      <Project
+        img={plant}
+        title={"Plant Dashboard"}
+        desc={
+          "The main purpose of this web app is to monitor my plants environment at home and remotely. This is done by displaying the current and average temperature/humidity, a graph of readings for the day and a live camera stream."
+        }
+        link={"https://plant-dashboard.netlify.app/"}
+        link2={"https://github.com/Plant-Dashboard"}
+        icon="fas fa-code fa-1x"
+        icon2="fab fa-github-square fa-2x"
+        tip="Link to Plant Dashboard homepage"
+        tip2="Link to GitHub"
+        stack={[
+          "React",
+          "Redux",
+          "Redux-Thunk",
+          "MaterialUI",
+          "Node",
+          "Express",
+          "REST API",
+          "IoT",
+          "Raspberry Pi",
+          "Python",
+          "MongoDB",
+          "Heroku",
+          "Netlify",
+        ]}
+      />
       <Project
         img={punkhub}
         title={"Punk Hub Live"}
@@ -41,17 +70,6 @@ const projects = () => {
           "Heroku",
           "Google Cloud",
         ]}
-      />
-      <Project
-        img={reactLogo}
-        title={"Portfolio Website"}
-        desc={
-          "You are already here! This site is the first thing I've built using ReactJS, using some components from MaterialUI. Being hosted on GitHub pages."
-        }
-        link={"https://github.com/BryanBorge/portfolio"}
-        icon="fab fa-github-square fa-2x"
-        tip="Link to GitHub"
-        stack={["React", "CSS modules", "MaterialUI"]}
       />
       <Project
         img={pennAndTellerLogo}
