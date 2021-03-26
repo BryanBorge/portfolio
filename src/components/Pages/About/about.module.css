@@ -17,3 +17,31 @@
 .focus a {
   text-decoration: underline;
 }
+
+.request {
+  display: flex;
+  justify-content: center;
+}
+
+.Resume {
+  display: flex;
+
+  justify-content: center;
+  align-content: space-around;
+}
+
+div.p {
+  text-align: center;
+}
+
+.links {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.Resume a:hover {
+  transition: transform 0.2s;
+  transform: translateY(-5px);
+}
