@@ -15,18 +15,18 @@ const job = props => {
           <img className={classes.Logo} src={props.logo} alt="logo" />
 
           <Tooltip title={props.companyTip}>
-            <a href={props.link}>
+            <a href={props.link} target="_blank">
               <h1>{props.company}</h1>
             </a>
           </Tooltip>
           {props.titleTip ? (
             <Tooltip title={props.titleTip}>
-              <a href={props.secondLink}>
+              <a href={props.secondLink} target="_blank">
                 <p>{props.title}</p>
               </a>
             </Tooltip>
           ) : (
-            <a href={props.secondLink}>
+            <a href={props.secondLink} target="_blank">
               <p>{props.title}</p>
             </a>
           )}

@@ -3,16 +3,16 @@ import Chip from "@material-ui/core/Chip";
 import Tooltip from "@material-ui/core/Tooltip";
 import classes from "./project.module.css";
 
-const project = (props) => {
-  let listItems = props.stack.map((item) => (
+const project = props => {
+  let listItems = props.stack.map(item => (
     <li key={item}>
-      <Chip size='small' label={item} />
+      <Chip size="small" label={item} />
     </li>
   ));
   return (
     <div className={classes.Card}>
       <div className={classes.Image}>
-        <img src={props.img} alt='bumble' />
+        <img src={props.img} alt="bumble" />
       </div>
       <div className={classes.Title}>
         <h1>{props.title}</h1>
@@ -26,14 +26,14 @@ const project = (props) => {
       </div>
       <div className={classes.BottomRow}>
         <Tooltip title={props.tip}>
-          <a href={props.link}>
+          <a href={props.link} target="_blank">
             <div className={classes.Icon}>
               <i className={props.icon}></i>
             </div>
           </a>
         </Tooltip>
-        <Tooltip title={props.tip2} placement='right-end'>
-          <a href={props.link2}>
+        <Tooltip title={props.tip2} placement="right-end">
+          <a href={props.link2} target="_blank">
             <div className={classes.Icon2}>
               <i className={props.icon2}></i>
             </div>
