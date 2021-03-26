@@ -4,11 +4,9 @@ import Education from "./components/Pages/Education/education";
 import Header from "./components/Header/header";
 import About from "./components/Pages/About/about";
 import Skills from "./components/Pages/Skills/skills";
-import Resume from "./components/Pages/Resume/resume";
 import Projects from "./components/Pages/Projects/projects";
 import classes from "./content.module.css";
-
-const lastUpdated = new Date("Mon Mar 1 2021 13:04:28").toLocaleString("en-US");
+import Footer from "./components/Footer/Footer";
 
 const content = () => {
   return (
@@ -23,9 +21,8 @@ const content = () => {
       <Skills />
       <Header title="Projects" id="Projects" />
       <Projects />
-      <Header title="Resume" id="Resume" />
-      <Resume />
-      <p className={classes.updatedAt}>Last updated: {lastUpdated} </p>
+
+      <Footer />
     </div>
   );
 };
