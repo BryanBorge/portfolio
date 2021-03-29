@@ -6,16 +6,17 @@ import MKRLogo from "../../../assets/Icons/MKR_Logo.png";
 import classes from "./experience.module.css";
 
 let mkrItems = [
-  "Leading the development of a React Native application using the Expo framework",
-  "Utilizing Redux and Redux-Thunk for state management",
-  "Set up and maintain MongoDB database",
-  "Developed and implemented REST API with Node/Express",
-  "Deployed API using GitHub and Heroku",
-  "Implemented authentication with JWT",
+  "Leading a team of 2 in the development of a React Native application using the Expo framework",
+  "Utilizing Redux for asynchronous actions and global state management",
+  "Maintenance of MongoDB database",
+  "Developed a Node/Express REST API to source data and handle users on the front-end",
+  "Implemented JWT token based authentication",
+  "Deployed REST API using GitHub and Heroku",
   "Implemented account verification and password reset",
   "Utilized Google Cloud Storage for image hosting",
-  "Enabled payments using Expo and the Stripe API",
-  "Set up custom push notifications",
+  "Successfully intergrated payments using Expo and the Stripe API",
+  "Provided a robust amount of Unit and Integration tests to data models and API endpoints",
+  "Using Expo's tools with our back-end to enable real time push notifications",
 ];
 let mkrTime = "Sept 2020 - Current | Remote";
 
