@@ -7,12 +7,12 @@ const about = () => {
   return (
     <div className={classes.about}>
       <p>
-        Full stack developer with a life long fascination for technology. Fueled by a passion for creation and
+        Full stack developer with a lifelong fascination for technology. Fueled by a passion for creation and
         progression, I am eager to learn the latest technologies through continued coursework and professional
         development. Currently specializing in the MERN stack with a solid understanding of noSQL databases. I
         enjoy using React/React Native with Redux for state management along with Node/Express and MongoDB on
         the backend. I enjoy building web applications that utilize the most recent practices and tools. I
-        also enjoy builidng{" "}
+        also enjoy building{" "}
         <a href="https://www.wired.co.uk/article/internet-of-things-what-is-explained-iot" target="_blank">
           IoT
         </a>{" "}
