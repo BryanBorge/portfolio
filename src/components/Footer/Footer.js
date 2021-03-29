@@ -1,9 +1,8 @@
 import React from "react";
 import classes from "./footer.module.css";
-import Tooltip from "@material-ui/core/Tooltip";
 
 const Footer = props => {
-  const lastUpdated = new Date("Fri Mar 26 2021 12:40:27").toLocaleString("en-US");
+  const lastUpdated = new Date("Mon Mar 29 2021 11:39:27").toLocaleString("en-US");
 
   return (
     <footer className={classes.footer}>
