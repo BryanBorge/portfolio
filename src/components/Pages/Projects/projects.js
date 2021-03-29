@@ -37,8 +37,7 @@ const projects = () => {
         tip2="Link to GitHub"
         stack={[
           "React",
-          "Redux",
-          "Redux-Thunk",
+          "Redux/Redux-Thunk",
           "MaterialUI",
           "Node",
           "Express",
@@ -61,8 +60,7 @@ const projects = () => {
         stack={[
           "React Native",
           "Expo",
-          "Redux",
-          "Redux-Thunk",
+          "Redux/Redux-Thunk",
           "Node",
           "Express",
           "MongoDB",
