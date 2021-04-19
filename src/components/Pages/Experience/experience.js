@@ -8,17 +8,15 @@ import classes from "./experience.module.css";
 let mkrItems = [
   "Leading a team of 2 in the development of a React Native application using the Expo framework",
   "Utilizing Redux for asynchronous actions and global state management",
-  "Maintenance of MongoDB database",
-  "Developed a Node/Express REST API to source data and handle users on the front-end",
-  "Implemented JWT token based authentication",
+  "Created a REST API to source data and handle users on the front-end",
+  "Implemented JWT based authentication",
   "Deployed REST API using GitHub and Heroku",
   "Implemented account verification and password reset",
   "Utilized Google Cloud Storage for image hosting",
   "Successfully intergrated payments using Expo and the Stripe API",
-  "Provided a robust amount of Unit and Integration tests to data models and API endpoints",
   "Using Expo's tools with our back-end to enable real time push notifications",
 ];
-let mkrTime = "Sept 2020 - Current | Remote";
+let mkrTime = "Sept 2020 - March 2021 | Remote";
 
 let precipartItems = [
   "Supported the company in a Global migration to an upgraded ERP solution ",
