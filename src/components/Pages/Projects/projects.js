@@ -1,8 +1,6 @@
 import React from "react";
 import Project from "./Project/project";
-import rpi from "../../../assets/Icons/rpi.png";
 import MaskiLogo from "../../../assets/Icons/mask-eye.png";
-import reactLogo from "../../../assets/Icons/react.png";
 import plant from "../../../assets/Icons/plant.png";
 import pennAndTellerLogo from "../../../assets/Icons/pandt.jpg";
 import devdojo from "../../../assets/Icons/devdojo.jpg";
@@ -27,7 +25,7 @@ const projects = () => {
         img={plant}
         title={"Plant Dashboard"}
         desc={
-          "The main purpose of this web app is to monitor my plants environment at home and remotely. This is done by displaying the current and average temperature/humidity, a graph of readings for the day and a live camera stream."
+          "The purpose of this project is to monitor my plants environment. Using a RaspberryPi to save the sensor data and REST API to serve that data to a responsive single page web application."
         }
         link={"https://plant-dashboard.netlify.app/"}
         link2={"https://github.com/Plant-Dashboard"}
@@ -53,7 +51,7 @@ const projects = () => {
       <Project
         img={punkhub}
         title={"Punk Hub Live"}
-        desc={"Punk	Hub	Live is a	socially interactive live	streaming	platform that is currently in development."}
+        desc={"Punk	Hub	Live is a	socially interactive live	streaming	platform offering an exciting and interactive way for fans to connect to their favorite artists."}
         link={"https://www.manickatrecords.com/"}
         icon="fas fa-code fa-1x"
         tip="Link to Manic Kat Records"
