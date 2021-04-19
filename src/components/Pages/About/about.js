@@ -1,6 +1,5 @@
 import React from "react";
 import classes from "./about.module.css";
-import Tooltip from "@material-ui/core/Tooltip";
 import Button from "@material-ui/core/Button";
 
 const about = () => {
@@ -9,8 +8,7 @@ const about = () => {
       <p>
         Full stack developer with a lifelong fascination for technology. Fueled by a passion for creation and
         progression, I am eager to learn the latest technologies through continued coursework and professional
-        development. Currently specializing in the MERN stack with a solid understanding of noSQL databases. I
-        enjoy using React/React Native with Redux for state management along with Node/Express and MongoDB on
+        development. Currently specializing in the MERN stack, I enjoy using React/React Native with Redux for state management along with Node/Express and MongoDB on
         the backend. I enjoy building web applications that utilize the most recent practices and tools. I
         also enjoy building{" "}
         <a href="https://www.wired.co.uk/article/internet-of-things-what-is-explained-iot" target="_blank">
