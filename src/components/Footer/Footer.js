@@ -2,7 +2,7 @@ import React from "react";
 import classes from "./footer.module.css";
 
 const Footer = props => {
-  const lastUpdated = new Date("Mon Mar 29 2021 11:39:27").toLocaleString("en-US");
+  const lastUpdated = new Date("Mon Apr 19 2021 11:36:54").toLocaleString("en-US");
 
   return (
     <footer className={classes.footer}>
