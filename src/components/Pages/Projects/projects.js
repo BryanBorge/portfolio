@@ -5,6 +5,7 @@ import plant from "../../../assets/Icons/plant.png";
 import pennAndTellerLogo from "../../../assets/Icons/pandt.jpg";
 import devdojo from "../../../assets/Icons/devdojo.jpg";
 import punkhub from "../../../assets/Icons/punkhub.jpg";
+import nasa from "../../../assets/Icons/nasa.png";
 import classes from "./projects.module.css";
 
 const projects = () => {
@@ -20,6 +21,18 @@ const projects = () => {
         icon="fas fa-code fa-1x"
         tip="Link to DevDojo Profile"
         stack={["DevDojo", "Development Blog"]}
+      />
+      <Project
+        img={nasa}
+        title={"NASA API Front end"}
+        desc={"React front end to display NASA's Astronomy Picture of the day."}
+        link={"https://nasaclient.netlify.app/"}
+        link2={"https://github.com/BryanBorge/nasa-client"}
+        icon="fas fa-code fa-1x"
+        icon2="fab fa-github-square fa-2x"
+        tip="Link to NASA Client"
+        tip2="Link to GitHub"
+        stack={["React", "REST API", "CSS", "Responsive Design"]}
       />
       <Project
         img={plant}
@@ -51,7 +64,9 @@ const projects = () => {
       <Project
         img={punkhub}
         title={"Punk Hub Live"}
-        desc={"Punk	Hub	Live is a	socially interactive live	streaming	platform offering an exciting and interactive way for fans to connect to their favorite artists."}
+        desc={
+          "Punk	Hub	Live is a	socially interactive live	streaming	platform offering an exciting and interactive way for fans to connect to their favorite artists."
+        }
         link={"https://www.manickatrecords.com/"}
         icon="fas fa-code fa-1x"
         tip="Link to Manic Kat Records"
