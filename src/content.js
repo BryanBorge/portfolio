@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Experience from "./components/Pages/Experience/experience";
 import Education from "./components/Pages/Education/education";
 import Header from "./components/Header/header";
@@ -14,6 +14,7 @@ import DialogActions from "@material-ui/core/DialogActions";
 import DialogContent from "@material-ui/core/DialogContent";
 import DialogContentText from "@material-ui/core/DialogContentText";
 import DialogTitle from "@material-ui/core/DialogTitle";
+import Snackbar from "@material-ui/core/Snackbar";
 
 const Content = props => {
   const [open, setOpen] = useState(true);
@@ -28,6 +29,22 @@ const Content = props => {
 
   return (
     <div className={classes.maincontent}>
+      <Snackbar
+        anchorOrigin={{
+          vertical: 'top', horizontal: 'center'
+        }}
+        open={!open}
+        message="You should check out my updated site."
+        action={
+          <Button
+            style={{ color: "white", textDecoration: "underline" }}
+            size="small"
+            onClick={handleRedirectToNewSite}>
+            Take me there
+          </Button>
+        }
+      />
+
       <Header title="About" id="About" />
       <About />
       <Header title="Education" id="Education" />
